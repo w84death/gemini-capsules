@@ -1,0 +1,38 @@
+# Solar Log
+
+## Day #1 / 2022-11-19
+
+### 2022-11-19 09:20 AM
+ON-LINE.
+Solar panel installed. Capsule is put near the window with clear view of the sun.
+Sky is perfetly clear.
+
+### T+40min
+ON-LINE.
+Still working fine. Few people visited it (LED blink).
+
+### T+2h
+ON-LINE.
+
+### T+2h10m
+ON-LINE.
+Lot of clouds. Very little sun.
+
+### T+2h20m
+ON-LINE.
+Return of the sun. Clouds goes away.
+
+### T+4h4m
+ON-LINE.
+Big clouds covers the whole sky. No sun at all.
+Forcast says it will stay like that and will snow.
+
+### T+5h40m
+ON-LINE.
+There is a lot of snow outside.
+
+### T+7h5m
+OFF-LINE.
+And it goes off line.
+
+=> / Back to home

@@ -1,0 +1,43 @@
+# Floppy Capsule
+
+## You 🧔 are in a dim room.
+
+You see a lot of computer related hardware all over the place. Smaller and bigger.
+A dot-matrix printer in the corner. Few transparent boxes full of cables.
+
+There is a desk and a big computer in front of you that just screams "hack me!".
+It's a PC tower with a lot of blinking lights. It's fans hums smoothly in the background, thickening the atmosphere even more. The desk is occupied by usual, boring computer stuff.
+
+## Familiar blue rectangle turns your attention.
+
+You came closer and find out it's an old, 3.5" floppy disk.
+
+``` Floppy
+       __________________
+      /_/  DATA DISK  /_/;
+     / ' P1X CAPSULE ' //
+    / '-------------' //
+   /   .--------.    //
+  /   /         /   //
+ .___/_________/___//
+ '===\_________\==='
+```
+
+It's made of a blue plastic and the description reads:
+> DATA DISK; P1X CAPSULE
+
+Coincidently, the computer have an empty floppy drive installed. Just waiting to be filled with magnetic data.
+
+## Enter
+=> floppy.gmi 💾 Insert blue floppy
+
+
+```Footer
+G ▓▓▓▓  ▓ ▓ ▓ ╮
+E ▓  ▓ ▓▓ ▓ ▓ │ CC0 P1X
+M ▓  ▓  ▓  ▓  │ Proudly curated by
+I ▓▓▓▓  ▓ ▓ ▓ │ Krzysztof Krystian Jankowski
+N ▓     ▓ ▓ ▓ │ ──────────────────────────────────────┄
+I ▓     ▓ ▓ ▓ │ Powered by Raspberry Pi & Agate Server
+╰──┄CAPSULE┄──╯
+```

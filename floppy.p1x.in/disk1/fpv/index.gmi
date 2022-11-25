@@ -1,0 +1,67 @@
+# 🚁 FPV Racing Drones
+Capsule dedicated to flying micro drones
+
+## FPV TinyHawk Pilot
+Each day with a grounded drone is a lost opportunity to be a better pilot.
+
+## About me
+My name is Krzysztof Krystian Jankowski. I am known on the web as w84death.
+
+I'm a web and game developer and 3D artist. In 2020 I discovered drone racing and a very small vehicles known as Micro Air Vehicle. The new hobby begins.
+
+I started with DJI Tello but it was more of a flying camera. Then I got TinyHawk RTF combo and started FPV flying. Since then I'm addicted and the concept took me by storm. I just love to fly. I'm a big fan of TinyHawk... drones.
+
+Flying FPV in Acro mode is not an easy task. But learning to master it is very satisfying. I created this page to document my progress. I hope it will make you interested in the hobby and keep motivated to keep learning.
+
+## My Gear
+I started with just a Emax TinyHawk RTF combo with 1 battery :) And I still recommend this as a best starting point.
+Over time I upgraded my gear to this setup. It fits perfectly to my flying style.
+
+### EMAX TinyHawk II Race
+Best quad for it's size! Changed to XT30 connector. New VTX antenna. Applied conformal coating.
+Gift from Joshua Bardwell :)
+
+### Jumper T12 Pro Hall
+Super nice, wrapped in carbon fiber, extremely precise and smooth hall gimbals.
+OpenTX firmware and can be used in simulators on a PC.
+Gift from my Mom :)
+
+### Skyzone SKY02C
+Superb quality goggles. Big, clear screens. Good reception and DVR. Very comfortable. Fit perfectly for my European face.
+Got it from Sanata :)
+
+### MenaceRC Omni
+This antenna significantly improves link quality.
+
+### VeeRace FPV 5.8GHz
+Poland antenna for small drones. Very durable.
+
+### Power
+* SkyRC e3 AC balance charger (1s-3s)
+* Tattu 450mAh 7.4V 75C 2S1P
+* R-Line Tattu 550mAh 7.4V 95C 2S1P
+* Tattu 650mAh 7.4V 75C 2S1P
+
+## NOB Can Fly
+I'm buying my hardware from NOB Can Fly since I started this journey. One of the best shops in Poland.
+=> https://www.nobshop.pl/pp-sklep-dadscj.html Support me by using this affiliate link.
+Whatever you buy from them I got a little commision.
+
+## Micro blog
+My thoughts of micro, racing, whoop drones. Some tips&tricks. Stuff I never think of before starting the hobby. Anything I discovered and want to share.
+
+### Articles
+=> article/pocket-guide.gmi POCKET GUIDE TO FPV DRONES
+=> article/skills-you-learn.gmi SKILLS YOU LEARN FROM FPV
+
+### Tips
+=> article/begginer-tips-1.gmi => BEGINNER TIPS #1
+=> article/begginer-tips-2.gmi => BEGINNER TIPS #2
+
+### Hardware
+=> WHY MICRO DRONES?
+=> article/skyzone-sky02c.gmi SANTA GOT ME A SKYZONE SKY02C GOGGLES
+=> article/tinyhawk-2-race.gmi TINYHAWK II RACE FIRST DAY IMPRESSIONS
+
+
+=> ../floppy.gmi Back to homepage

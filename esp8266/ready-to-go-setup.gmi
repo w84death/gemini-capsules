@@ -1,0 +1,46 @@
+# ESP8266: Ready to go Setup
+I realy enjoy playing with ESP8266. It is extremly small microcomputer that can handle HTTP server!
+
+The only problem is to setup the development environment. From my experience the easiest way is to use Raspberry Pi.
+
+## Hardware
+You need two things
+
+* the ESP8266 itself
+* the USB adapter USB-to-TTY
+
+## Arduino IDE
+You can get the IDE from the software center. Just install it.
+
+Out of the box it only supports Arduino boards. ESP8266 is made by Espressive so you need to get some files to make it works.
+
+### boards
+Go to settings and add this URL to the alternative boards:
+=> https://github.com/esp8266/Arduino/releases/download/3.0.2/package_esp8266com_index.json
+
+Now go to board manager and search for ESP8266. Install the plugin.
+
+### SPIFF Uploader
+Our microcontroller has 1MB of flash storage (SPIFF). To push files to it you need a plugin:
+=> https://github.com/earlephilhower/arduino-esp8266littlefs-plugin/releases Download ESP8266LittleFS-2.6.0.zip
+
+Donwload it and put in the ~/Arduino/tools/ (make "tools" directory if needed).
+
+## Permissions
+Last thing is to add permission for connecting to the board itself:
+
+```
+sudo gpasswd --add <USER> dialout
+```
+
+Change <USER> for your username. It's not 'pi' anymore.
+
+## Short pins
+Each time you want to push new code to the board you need to ground GPIO0 (first and third pins). To make the life easier I just soldered the simple button to back of the board. Pins on the button fits perfectly the exact needed pins on the ESP8266. Coincidance?
+
+Now I just keep the button pushed while I replug the board.
+
+## Read next
+=> gemini-server.gmi Gemini Server Setup
+
+=> / Back to home

@@ -1,0 +1,25 @@
+# WHY MICRO DRONES?
+Writen on Saturday, April 18, 2020
+
+I started with drones at the beginning of 2020. First with the DJI Tello.
+An extremely capable drone for its price (~100 euro). But it's more of a
+tool - a flying camera than anything else. Also, it can only fly outdoors
+with no obstacles around. And it's as good as the environment around you.
+Living in the city in a small apartment it's not good. I use my Tello only
+on holidays and special occasions.
+
+Then I found out about TinyWhoop[1] - a micro drone for flying indoor and with
+First Person View in mind. It started a "whoop" category. Small drones make the
+pilot feel like a little insect flying around the house. As with all the hobbies
+it instantly becomes a competition with racing around caffess[2] and small
+racing traks[3].
+
+That instantly loved the idea. I can fly at home, take the whole pack in a small
+bag outside whenever I go to the park. I can fly over the trees, under benches.
+I can feel free!
+
+=> [1] https://www.tinywhoop.com/
+=> [2] https://www.youtube.com/watch?v=jnXgoRxyVqU
+=> [3] https://www.youtube.com/watch?v=8X93MH-2loA
+
+=> /fpv/ 🚁 Back to index

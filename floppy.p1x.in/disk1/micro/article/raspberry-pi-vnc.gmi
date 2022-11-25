@@ -1,0 +1,41 @@
+# Raspberry Pi VNC Configuration
+
+Stock Raspberry Pi OS cames with VNC preloaded. All you need to do is run raspi-config and turn VPN on. That's it.
+
+But there is a problem. It is a propyretary software and it's defaut configuration prevents connecting with anything other that they crappy application.
+
+You try to login to your Pi and you get this error:
+
+> Unknown authentication scheme from VNC server: 13, 5, 6, 130, 192
+
+Furtunately there is a simple fix for that.
+
+## Configuring Pi
+Dive into the terminal.
+
+### Set VNC password
+Just run this and confirm new password.
+```
+sudo vncpasswd -service
+```
+
+### Change authentication scheme
+You need to edit the main configuration file:
+```
+sudo nano /root/.vnc/config.d/vncserver-x11
+```
+
+and add/change the following line:
+```
+Authentication=VncAuth
+```
+
+### Restart
+Now you can restart the Pi or just the service:
+```
+sudo systemctl restart vncserver-x11-serviced
+```
+
+Done
+
+=> ../ Back to index

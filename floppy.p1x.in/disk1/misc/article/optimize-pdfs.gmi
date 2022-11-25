@@ -1,0 +1,29 @@
+# Pro Tip: Easy optimizing PDF files
+
+I'm buyng the 2600 Magazine in a digital format. It's a simple PDF with few images and fancy frames. But for some reasons it is super heavy to render for slow devices.
+
+I tried to convert it to diffrent formats like ePUB and MOBI. But due to the hacky way that PDF is created makes it impossible to convert. The text is all mixed.
+
+Searching online got me nowhere in terms of a simple application. All I wanted was a big button to push and get smaller file. And in some way I found the solution!
+
+## Ghostscript
+
+There is a tool called ps2pdf in a ghostscript package.
+
+```
+$ sudo apt-get install ghostscript
+```
+
+Now just run this command:
+```
+$ ps2pdf input.pdf output.pdf
+```
+
+Depending on the file it can take a moment of two. In the end I got more than 50% reducion in size!
+
+* source PDF 39.2MiB
+* optimized PDF 15.3MiB
+
+And my trusty PocketBook can now render this file with less strugle :)
+
+=> ../ Back to index

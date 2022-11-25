@@ -1,0 +1,407 @@
+# Plant Best Friend - ESP8266 Monitoring
+Written on Oct 10, 2021
+
+> I'm obsessed with the tiny microcomputer named ESP-01. It is based on ESP8266 SoC (System on Chip). For my second project, I decided to make a small and simple weather monitoring station for my plant's vital parameters. Temperature, humidity, and soil moisture. Here's the complete tutorial on how to make one yourself for less than $30.
+
+This is part 1. I wanted to have a working system with a nice user interface. It is battery-powered. For part 2 I want to go full solar-powered and add logging to internal memory for drawing history graphs.
+
+## Hardware
+I'm buying my stuff from two polish shops: Botland and Nettigo. Recently due to a chip shortage, I needed to source two new ESPs from Allegro. Here's the list of hardware I collected so far for this project:
+=> https://botland.com.pl/
+=> https://nettigo.pl/
+
+* ESP8266 (ESP-01) ~$3
+* USB Programmer ~$4
+* DHT11 Sensor (with resistor) ~$3
+* Capacitive Soil Moisture Sensor v2.0 (3.3V) ~$2
+* 1S 3.3V LiPo Battery (temporary) ~$5
+
+For part 2 I already ordered a small solar panel and few boards to connect it with battery and microcomputer.
+
+## Software Setup
+* Download & install Arduino IDE
+* Run Arduino IDE
+* Add ESP8266 support: Setup > Additional boards URL > add [Boards] URL.
+* Tools > Board > Boards Manager… > Install ESP8266
+* Sketch > Include Library > Manage Libraries.. > install DHT Sensor & Adafruit Unified Sensor
+* SPIFFS > Download and extract to ~\Documents\Arduino\tools\ESP8266FS
+* Restart Arduino IDE
+
+=> https://web.archive.org/web/20220520230043/https://www.arduino.cc/en/software Arduino IDE
+=> https://web.archive.org/web/20220520230043/http://arduino.esp8266.com/stable/package_esp8266com_index.json Boards
+=> https://github.com/esp8266/arduino-esp8266fs-plugin/releases/tag/0.5.0 SPIFFS
+
+### User Interface
+ESP8266 can run a web server and serves HTML files. This will be the main user interface. To save storage (1MB) I stripped the files as much as I can. I used the same techniques as in my 8266 web server.
+In the end, it fits into five files:
+* index.html
+* style.css
+* script.js
+* favicon.ico
+* plant.jpg
+
+### The HTML File
+``` index.html
+<html lang=en>
+<meta charset=utf-8>
+<link rel=stylesheet href=theme.css>
+<link rel=icon type=image/svg+xml href=favicon.svg>
+<title>🪴 ... // Plant Best Friend / ESP8266 IoT</title>
+<script src=script.js></script>
+<header><h1>🪴 Plant Best Friend</h1></header>
+<main>
+<section>
+    <status><icon>💦</icon><span id=humi>N/A</span><small>ENVIRONMENT HUMIDITY</small> </status>
+    <status><icon>🌡️</icon><span id=temp>N/A</span><small>ENVIRONMENT TEMPERATURE</small></status>
+    <status><icon>🌱</icon><span id=mois>N/A</span><small>SOIL MOISURE QUALITY</small></status>
+</section>
+<section>
+    <div>
+        <h2>Hello! I'm an ESP8266. I'm currently sitting in the pot monitoring this awsome plant!</h2>
+        <status><img src=plant.gif alt="VIP Plant"/></status>
+    </div>
+</section>
+<section>
+    <button id=refresh onclick="RefreshData();">REFRESH DATA</button>
+</section>
+<footer>
+    <p>📶 <span id=rssi>N/A</span> RSSI / 🔋 <span id=batt>N/A</span></p>
+    &copy; 2020 <a href=cyfrowynomada.eu>Cyfrowy Nomada</a> / <a href=p1x.in>P1X</a>
+```
+Super simple one-page app. It has sections. The first one is occupied by status icons. Then an image and message. Lastly, refresh button for manual refreshing data.
+
+### The CSS File
+``` style.css
+html{background:rgb(94, 144, 94);padding-top:32px;}
+body{font:14px Consolas, Ubuntu Monospace, Monospace;min-width:320px;max-width:640px;margin:0 auto;padding:0;color:rgb(50,50,52);}
+main{padding:1em;}
+footer{text-align:center; margin-top:32px;}
+header{padding-top:2em;} footer{margin-top:32px;}
+h1{margin:0;font:110px Arial,Sans-serif;text-align:center;letter-spacing:-14px;line-height:79px;font-weight:900;text-shadow:5px 10px 0px rgb(29, 31, 29);color:#f8f8f8;}
+img {border-radius:8px;}
+section{display:flex; flex-direction:row; justify-content:center;margin-top:32px; text-align:center;}
+section:first-child{margin:64px 0;}
+status{display:flex; font-weight:900;font-size:48px;text-align:center;flex-direction:column;padding: 8px 24px; background:white; border-radius:32px; margin: 0 32px;box-shadow: 2px 4px 0px black; border:6px solid black;}
+status small{font-size:12px;color:#888;}
+button {font-weight:900; font-size:24px;padding:8px 24px;background-color:blanchedalmond; border-radius:16px; margin:0 32px;box-shadow: 2px 4px 0px black;border: 1px solid black;cursor: pointer;height: 46px;}
+button:hover {background-color:white;}
+```
+Just the essentials.
+
+## The JS File
+```
+let temp = 0.0;
+let humi = 0.0;
+let mois = 0;
+let rssi = 0;
+
+let HttpClient = function() {
+    this.get = function(aUrl, aCallback) {
+        let httpReq = new XMLHttpRequest();
+        httpReq.onreadystatechange = () => {
+            if (httpReq.readyState == 4 && httpReq.status == 200)
+                aCallback(httpReq.responseText);
+        }
+        httpReq.open( "GET", aUrl, true );
+        httpReq.send( null );
+    };
+}
+let client = new HttpClient();
+let ForceUpdate = () => {
+    console.log("> Forcing update...")
+    client.get('/update', () => {
+        RefreshData();
+    });
+}
+let RefreshData = () => {
+    console.log("> Getting fresh data...")
+    client.get('/temp', (response) => {
+        temp = Math.round(response)
+        console.log("> Temperature:" + response);
+        UpdateDOM();
+    });
+    client.get('/humi', (response) => {
+        humi = Math.round(response)
+        console.log("> Humidity:" + response);
+        UpdateDOM();
+    });
+    client.get('/mois', (response) => {
+        mois = Math.round(response)
+        console.log("> Moisure:" + response);
+        UpdateDOM();
+    });
+    client.get('/rssi', (response) => {
+        rssi = Math.round(response)
+        console.log("> RSSI:" + response);
+        UpdateDOM();
+    });
+}
+let UpdateDOM = () => {
+    document.getElementById("temp").innerHTML = `${temp}°C`;
+    document.getElementById("humi").innerHTML =`${humi}%`;
+    document.getElementById("mois").innerHTML = `${mois}`;
+    document.getElementById("rssi").innerHTML = `${rssi}`;
+    document.title = `🪴 ${temp}°C, ${humi}%, ${mois} // Plant Best Friend / ESP8266 IoT`;
+}
+ForceUpdate();
+setInterval(RefreshData, 10000); // 10s
+setInterval(ForceUpdate, 55000); // 55s
+```
+Once again simple solutions are the best. It could be designed much better but would add complexity without any real benefits. This is a simple machine, simple project, and works on simple code :)
+
+ForceUpdate hits /update on the server. This forces readout from sensors. This is done always on the first-page load. Then it hits every 55s.
+
+RefreshData hits each sensor type for the latest data. Data collection from sensors could be forced by other users. We only get the latest values saved. This hits each 10s.
+
+### Upload
+Put ESP8266 into flashing mode by shorting GND and PIN0. I'm using a cable for that. Once plugged in it will blink shortly and be ready to upload.
+
+To upload these files to the ESP you need to put them in the /data/ directory of the sketch project. Then use:
+
+* Tools>ESP8266SketchDataUpload
+
+This will create an image and push it to the internal 1MB FLASH.
+
+``` log
+[SPIFFS] data    : E:\Repos\esp8266-plantbestfriend\code\data
+[SPIFFS] size    : 128
+[SPIFFS] page    : 256
+[SPIFFS] block   : 4096
+/bg.gif
+/index.html
+/theme.css
+/favicon.svg
+/plant.gif
+/script.js
+[SPIFFS] upload  : C:\Users\w84de\AppData\Local\Temp\arduino_build_610348/code.spiffs.bin
+[SPIFFS] address  : 0xDB000
+[SPIFFS] reset    : --before default_reset --after hard_reset
+[SPIFFS] port     : COM5
+[SPIFFS] speed    : 115200
+[SPIFFS] python   : C:\Users\w84de\Documents\ArduinoData\packages\esp8266\tools\python3\3.7.2-post1\python3.exe
+[SPIFFS] uploader : C:\Users\w84de\Documents\ArduinoData\packages\esp8266\hardware\esp8266\3.0.2\tools\upload.py
+
+esptool.py v3.0
+Serial port COM5
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: c4:5b:be:61:77:b3
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 1MB
+Compressed 131072 bytes to 58668...
+Writing at 0x000db000... (25 %)
+Writing at 0x000df000... (50 %)
+Writing at 0x000e3000... (75 %)
+Writing at 0x000e7000... (100 %)
+Wrote 131072 bytes (58668 compressed) at 0x000db000 in 5.2 seconds (effective 202.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+```
+Those files takes 131KB of space.
+
+## The Microcontroller Code
+Now it's time for the fun part. Some C code. I will split it into three parts. I removed all serial logging to make the code more readable.
+=> https://github.com/w84death/esp8266-plantbestfriend/blob/main/code/code.ino Full code listing
+
+### Libraries & Variables
+```
+#include <ESP8266WiFi.h>
+#include <ESP8266WebServer.h>
+#include <FS.h>
+#include <DHT.h>
+
+const char* ssid = "P1X_2.4GHz";
+const char* password = "dawajneta";
+
+#define SOILPIN 0
+#define SOILMIN 250
+#define SOILMAX 600
+
+#define DHTPIN 2
+#define DHTTYPE DHT11
+#define DHTTWEAK 15
+
+#define WEBPORT 80
+
+float sens_temp = 0.0;
+float sens_humi = 0.0;
+float sens_mois = 0.0;
+long rssi = 0;
+
+String getContentType(String filename);
+bool handleFileRead(String path);
+void updateSensorsReadings();
+void updateRSSI();
+```
+I'm using ESP8266WiFi, ESP8266WebServer, FS, and DHT libraries. It's not hard to get what each of them does.
+All the soil sensor settings using SOIL suffix, DHT11 sensor DHT, and the web is using WEB.
+The sens_* are for storing the latest sensor readings and RSSI is for link quality.
+
+### Setup & Main Loop
+```
+DHT dht(DHTPIN, DHTTYPE, DHTTWEAK);
+ESP8266WebServer server(WEBPORT);
+
+void setup(void){
+    WiFi.begin(ssid, password);
+    while (WiFi.status() != WL_CONNECTED)
+    {
+        delay(500);
+    }
+
+    SPIFFS.begin();
+
+    server.onNotFound([]() {
+      if (!handleFileRead(server.uri()))
+        server.send(404, "text/plain", "404: Not Found");
+    });
+    server.begin();
+
+    server.on("/temp", []() {
+        server.send(200, "text/plain", String(sens_temp, DEC));
+    });
+    server.on("/humi", []() {
+        server.send(200, "text/plain", String(sens_humi, DEC));
+    });
+    server.on("/mois", []() {
+        server.send(200, "text/plain", String(sens_mois, DEC));
+    });
+    server.on("/rssi", []() {
+        updateRSSI();
+        server.send(200, "text/plain", String(rssi, DEC));
+    });
+    server.on("/update", []() {
+      updateSensorsReadings();
+      server.send(200, "text/plain", "OK");
+    });
+
+    updateSensorsReadings();
+}
+
+void loop(void){
+  server.handleClient();
+}
+```
+First I started the DHT sensor library and the webserver.
+
+The Setup function tries to connect to the wifi. Then binds all the web URLs. When the server gets the main website URL aka root ("/") then it serves index.html. When asked for temperature ("/temp") it sends the latest temperature reading. Same for other stats. Lastly, it forces sensor readings.
+
+In the main loop, there is only a server-client handling.
+
+### Functions: Web server
+The hearth of our application.
+```
+String getContentType(String filename) {
+  if (filename.endsWith(".html")) return "text/html";
+  else if (filename.endsWith(".css")) return "text/css";
+  else if (filename.endsWith(".js")) return "application/javascript";
+  else if (filename.endsWith(".gif")) return "image/gif";
+  else if (filename.endsWith(".svg")) return "image/svg+xml ";
+  return "text/plain";
+}
+
+bool handleFileRead(String path) {
+  if (path.endsWith("/")) path += "index.html";
+  String contentType = getContentType(path);
+  String indexData;
+
+  if (SPIFFS.exists(path)) {
+    File file = SPIFFS.open(path, "r");
+    size_t sent = server.streamFile(file, contentType);
+    file.close();
+    return true;
+  }
+  return false;
+}
+```
+Those are two basic webserver functions. File handler checks if it needs to serve the index.html or some individual file. Each file requires a special content type that it gets by looking at the extension of the file. I only added those that are used in this project.
+
+### Sensors
+```
+void updateSensorsReadings() {
+  sens_temp = dht.readTemperature();
+  delay(100);
+  sens_humi = dht.readHumidity();
+  delay(100);
+  sens_mois = 100 - map(analogRead(SOILPIN), SOILMIN, SOILMAX, 0, 100);
+}
+
+void updateRSSI() {
+  rssi = WiFi.RSSI();
+}
+```
+Reading a sensor is super easy. Here I update the DHT and analog sensors. Analog needs calibration (min/max) and then map to reduce display values to 0-100 range. For WiFi link quality I just read RSSI value.
+
+That is all.
+
+### Compiling and Upload
+Remember to short GND and PIN0 befor pluggin into USB port. Then just hit Upload.
+``` log
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache
+IROM   : 305492          - code in flash         (default or ICACHE_FLASH_ATTR)
+IRAM   : 27449   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...)
+DATA   : 1504  )         - initialized variables (global, static) in RAM/HEAP
+RODATA : 1528  ) / 81920 - constants             (global, static) in RAM/HEAP
+BSS    : 26072 )         - zeroed variables      (global, static) in RAM/HEAP
+Sketch uses 335973 bytes (37%) of program storage space. Maximum is 892912 bytes.
+Global variables use 29104 bytes (35%) of dynamic memory, leaving 52816 bytes for local variables. Maximum is 81920 bytes.
+esptool.py v3.0
+Serial port COM5
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: c4:5b:be:61:77:b3
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 1MB
+Compressed 340128 bytes to 246199...
+Writing at 0x00000000... (6 %)
+Writing at 0x00004000... (12 %)
+Writing at 0x00008000... (18 %)
+Writing at 0x0000c000... (25 %)
+Writing at 0x00010000... (31 %)
+Writing at 0x00014000... (37 %)
+Writing at 0x00018000... (43 %)
+Writing at 0x0001c000... (50 %)
+Writing at 0x00020000... (56 %)
+Writing at 0x00024000... (62 %)
+Writing at 0x00028000... (68 %)
+Writing at 0x0002c000... (75 %)
+Writing at 0x00030000... (81 %)
+Writing at 0x00034000... (87 %)
+Writing at 0x00038000... (93 %)
+Writing at 0x0003c000... (100 %)
+Wrote 340128 bytes (246199 compressed) at 0x00000000 in 21.8 seconds (effective 124.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+```
+The whole code (with libraries) took 340KB of space.
+
+## Implementation
+Connecting it all is straightforward. Follow the schematics below. I soldered the moisture sensor and battery cables. DHT11 is connected by the pins.
+In the end, I added a proxy domain for this IoT at https://iot.p1x.in/. If it works (battery last few hours) you can check the state of my plant :)
+
+Update (11/10/2021)
+Turns out the 1s 450mha battery is sufficient for around 5h of work. The battery is taken from an old drone so it's not new. It's heavily used and abused. Taking that into consideration battery life is very impressive.
+This is not enought to sustain solar powered version so I will need to find bigger battery (18650 more likely).
+
+## Resources
+=> https://github.com/w84death/esp8266-plantbestfriend Github repository
+=> https://www.reddit.com/r/esp8266/comments/q60u1k/plant_best_friend_esp8266_monitoring_part_1/ Reddit thread at /r/esp8266
+=> https://tttapa.github.io/ESP8266/Chap10%20-%20Simple%20Web%20Server.html Tutorial on WebServer tttapa.github.io/ESP8266/Chap10 - Simple Web Server.html
+=> https://tttapa.github.io/ESP8266/Chap11%20-%20SPIFFS.html Tutorial on SPIFFS tttapa.github.io/ESP8266/Chap11 - SPIFFS.html
+
+=> ../ Back to index

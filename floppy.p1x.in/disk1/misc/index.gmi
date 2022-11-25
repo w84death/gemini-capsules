@@ -1,0 +1,12 @@
+# ✨ Miscellaneous content
+
+## On this capsule
+=> article/bookmarks.gmi Geminispace Bookmarks
+=> article/ascii.gmi Useful ASCII/ANSI Characters
+=> article/tech.gmi Technology behind the capsule
+=> article/cyfrowynomada.gmi Cyfrowy Nomada Business Card
+
+## Geminispace
+=> gemini://astrobotany.mozz.us/public/7f88dbbc897e42168dbf54d3d94f8ca6 water my plant 🪴
+
+=> ../floppy.gmi Back to homepage

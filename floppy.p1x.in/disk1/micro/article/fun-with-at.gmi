@@ -1,0 +1,237 @@
+# Fun with AT commands
+Written on Jan 29, 2022
+
+## Connecting
+
+You need any RS323 communication tool. I recommend Termite (Windows) or Hercules SETUP Utility (Windows). Termite is easier to use at first. For more complex interactions like setting up a web server or sending/receiving data from the web, Hercules becomes more useful.
+=> https://www.compuphase.com/software/termite-3.4.exe Easy Termite version 3.4 (Setup, 332 KiB).
+=> https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe Advanced Hercules version3-2-8 (Binary, 38.3 KiB)
+
+For now, I will use Termite. Out-of-the-box settings are OK. Port and Baud rate should be detected automatically. Just turn off the local echo (it repeats each sent command).
+
+Try AT and AT+GMR to confirm everything is working.
+
+## Basic Commands
+
+### Sanity Check
+The most basic and important command is AT (empty, without any parameters). It is kind of saying "Hello" to the chip. If everything is working fine it should return OK.
+```
+> AT
+OK
+```
+Most of the commands are ended by an OK string. This indicates the end of the message from the ESP.
+
+### Firmware version
+Another useful command is GMR which returns all the information about the installed firmware.
+```
+> AT+GMR
+AT version:1.6.2.0(Apr 13 2018 11:10:59)
+SDK version:2.2.1(6ab97e9)
+compile time:Jun  7 2018 19:34:26
+Bin version(Wroom 02):1.6.2
+OK
+```
+
+### Restart / Fresh boot
+
+You can restart the board by simply toggling the power (re-plug USB). To actually see the boot messages it's better to just use the reset command RST.
+
+```Boot messages of ESP8266.
+> AT+RST
+OK
+WIFI DISCONNECT
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x40100000, len 2408, room 16
+tail 8
+chksum 0xe5
+load 0x3ffe8000, len 776, room 0
+tail 8
+chksum 0x84
+load 0x3ffe8310, len 632, room 0
+tail 8
+chksum 0xd8
+csum 0xd8
+
+2nd boot version : 1.6
+  SPI Speed      : 40MHz
+  SPI Mode       : DOUT
+  SPI Flash Size & Map: 4Mbit(256KB+256KB)
+jump to run user1 @ 1000
+
+„ă[03]ě[1B]Ă'ä’{Ăón<ä[04]$Śäl`[03][1C]b“[1B][03][04]ź|[02]{’[03]lÜnŕ[04]oâ[00]dl [03]Śâs“l„l[1B]Ä[0C][04]ěl`[03]„ă;›děd[12]Ś[04][0C][0C]d`[03]ŚăsŰl[0C]Źž[00]„[0C][0C]dl [03]s$ŹĂslŚžă„c[04]Ś„c[1C]|d[0C]cŹŕ[04][13]ä‡ăălcäň'ç€[13]noă[10][03][0C][03]Śdű|[02][04]äÇ„[0C]d[04][0C]děŚd‡|ě$[0C]Ź[07]dŔ[03]gü[00]ÄßăŚ#[04]$läŚÇ[1B][0C]#[04][03][03]ŚßăŚb[04]l[0C]„c[1C]rl;l
+ready
+WIFI CONNECTED
+WIFI GOT IP
+```
+### Checking free RAM
+Use SYSRAM - System Random Access Memory - with "?" at the end to prompt for the value.
+```
+> AT+SYSRAM?
+AT+SYSRAM?
++SYSRAM:32968
+
+OK
+```
+
+## WiFi/Network Commands
+
+### Modes
+Using CWMODE you can check (?) or change (=N) the WiFi mode as a client (1), AP(2), or both(3):
+
+```
+AT+CWMODE?
++CWMODE:1
+
+OK
+```
+
+```
+AT+CWMODE=2
+
+OK
+```
+
+### Hostname
+Check (?) and change (="NAME") hostname:
+```
+> AT+CWHOSTNAME?
+AT+CWHOSTNAME?
++CWHOSTNAME:ESP_21D811
+
+OK
+```
+```
+> AT+CWHOSTNAME="ESP-01"
+
+OK
+```
+
+### DHCP
+Enable DHCP for both SoftAP and Station modes.
+```
+> AT+CWDHCP=1,1
+```
+
+### Connect to WiFi
+
+List Acces Points
+The CWLAP - List AccessPoints will print all visible wifi networks (on 2.4Ghz spectrum.)
+```
+> AT+CWLAP
+AT+CWLAP
++CWLAP:(3,"Orange_Swiatlowod_4DD0",-68,"d4:f8:29:92:4d:d0",1,70,0,4,4,7,1)
++CWLAP:(4,"rybki",-87,"54:e6:fc:ea:10:5a",1,78,0,5,3,3,0)
++CWLAP:(4,"P1X_2.4GHz",-53,"58:ef:68:b9:77:a9",6,83,0,4,3,7,1)
++CWLAP:(0,"ESP_0D3294",-57,"4a:3f:da:0d:32:94",6,103,0,0,0,3,0)
++CWLAP:(4,"komster.net-522515704",-73,"90:9a:4a:94:0d:36",9,93,0,5,3,7,1)
++CWLAP:(4,"INEA-4236_2.4G",-85,"30:cc:21:1c:a5:a3",9,32767,0,5,3,6,0)
+
+OK
+```
+
+### Connect
+
+Connect to your network using the CWJAP command - Join AccessPoint. Provide name and password.
+```
+> AT+CWJAP="P1X_2.4GHz","password"
+AT+CWJAP="P1X_2.4GHz","password"
+WIFI CONNECTED
+WIFI GOT IP
+
+OK
+```
+
+### IP
+Get the microcontroller IP using the CIFSR command.
+```
+> AT+CIFSR
++CIFSR:STAIP,"192.168.1.175"
++CIFSR:STAMAC,"08:31:c8:21:d8:11"
+
+OK
+```
+
+### Set IP manually
+If you need to get a static IP set it using CIPSTA where the first parameter is IP, the second is DNS and the last is a mask.
+```
+> AT+CIPSTA="192.168.1.123","192.168.1.1","255.255.255.0"
+```
+
+### Disconnect
+Simple as CWQAP - Quit AccessPoint.
+```
+> AT+CWQAP
+
+OK
+```
+
+## Simple Web Server
+You don't need Apache anymore! ;)
+```
+> AT+CIPMUX=1
+> AT+CIPSERVER=1,80
+```
+
+```
+AT+CIPSEND=0,12
+<h1>P1X</h1>
+AT+CIPCLOSE=0
+```
+
+```
+> AT+CIPSERVER=0
+> AT+RST
+```
+
+Send more data in packets.
+```
+> AT+CIPSEND=0,12
+<h1>P1X</h1>
+
+> AT+CIPSEND=0,41
+<p>Welcome to the AT learning session</p>
+
+> AT+CIPCLOSE=0
+```
+
+### Two-way simple chat.
+```
+> AT+CIPMUX=1
+
+OK
+> AT+CIPSERVER=1,80
+no change
+
+OK
+```
+Now go to TCP Client and connect to the microcontroller IP (hint: use AT+CIFSR to get it.)
+
+After that you should see a new connection in the Serial tab:
+```
+0,CONNECT
+```
+The first number is the ID of the client. Each connected client gets a different ID. To send any message/data to it you will need to specify that ID.
+
+CIPSEND command takes two arguments:
+* client ID to send to
+* number of  bytes (1 simple character = 1 byte)
+
+To send "hello" count the letters (5 in that case) and use them in the command:
+```
+AT+CIPSEND=0,5
+
+OK
+> hello
+Recv 5 bytes
+
+SEND OK
+```
+It will prompt ">" for the message. It will not be visible while typing. After you fill up 5 bytes it will send them to the client. Go to the TCP Client tab and see if your message arrives.
+
+Now write whatever you want in the input below and hit send.
+
+Back to the ESP tab (Serial), you should see that client 0 sends, 9 bytes that represent the "whats up?" string.
+
+=> ../ Back to index

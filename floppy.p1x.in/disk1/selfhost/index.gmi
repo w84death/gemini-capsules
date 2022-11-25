@@ -1,0 +1,8 @@
+# Selfhosting 🖧
+Capsule about having a server in your flat and taking care of it.
+
+
+## Articles
+=> article/tech.gmi Docker and gemini - tech bechind this capsule
+
+=> ../floppy.gmi Back to homepage

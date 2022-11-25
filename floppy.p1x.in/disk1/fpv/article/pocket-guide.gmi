@@ -1,0 +1,274 @@
+# POCKET GUIDE TO FPV DRONES
+Written on Sunday, September 20, 2020
+
+Table of Content
+
+    - Introduction
+    - Drone classes
+    - Hardware you need
+    - The skill levels
+    - Flying
+    - The cool parts
+    - Bottom line
+
+
+## INTRODUCTION
+
+    I become addicted to flying a drone at the beginning of 2020. I like the
+    idea since the first DJI showed in the news years ago. It was very expensive
+    and big. But prices go down and the drones become smaller and just easier to
+    use. They are all designed for videography. And it's cool when you travel a
+    lot and visit awesome sites. But when you live in a city like me a classic
+    drone is hardly usable. An now we are facing the restrictions that will
+    prevent ppl from flying them over the other ppl. I also don't travel that
+    much. For those reasons I never bought one. I wanted it as anyone but don't
+    have a real reason to use it.
+
+    That time I did not know anything about custom drones. They are made mostly
+    for racing. Hence the name that sticks to them. And those are way more
+    interesting. Technologyimprove to the level that racing drones become very
+    small and cheap. I watched a few videos[1] how ppl racing in the coffeeshop
+    under tables and chairs and over lamps under the ceiling. This looked
+    amazing. The best part was the live video feed in goggles. I was ready to
+    buy my first starter kit - EMAX TinyHawk RTF.
+
+    China's delivery took some time. But it finally arrived and I was super
+    excited. Flying a racing drone is way different and harder than flying DJI
+    type of doing. So the first days were constant crashes and learning how to
+    not hit the ceiling right after takeoff. After a week the first challenge
+    was to fly from room to room. It seems like an easy task but it's not for
+    a new pilot. And that's the whole point. I was hooked because it requires
+    leaning and rewards you at every step. And there is a lot to learn and a
+    hell lot of steps to take.
+
+    [1] https://youtu.be/jnXgoRxyVqU
+
+## DRONE CLASSES / GROUPS
+
+    Racing drones are mostly known for those big and dangerous beasts that
+    require a big chunk of a battery. In reality, all our hobby drones are micro
+    drones. The normal-sized drone is a military airplane that just doesn't have
+    a pilot in it. This micro category is divided into drone classes. Those are
+    invented by the community and have loosely defined definitions. But that's
+    fine. It is just to make life easier for discussions and finding information
+    about the given drone family.
+
+    The most common is the "5-inch" class. Maybe also named "6s". One says about
+    propellers size other about the battery cells count. Big drones need big
+    batteries. Those are packed in a series of cells. As I mentioned those quads
+    are very dangerous. Putting a finger in the rotating blades will cut it in a
+    split second. What you gain is speed and power to have a GoPro mounted on
+    them. With bigger antennas and better electronics range is also wider. They
+    are not cheap and require a lot of manual maintenance. Not for a newbie.
+
+    Another group of drones is named "Toothipics". These measure around 3" and
+    runs on 2-3s batteries. They are way smaller and lighter. Are easy to carry
+    around. Still powerful to do all kinds of tricks. But instead of GoPro, all
+    they can have is a tiny Insta360 Go. Most pilots do not use the second
+    camera as those are mostly for training and freestyle in the backyard or a
+    park. The name was given by a kebabfpv[2] who first build such a quad.
+
+    Third, the smallest class is known as "Whoop". From a TinyWhoop[3] drone
+    invented by Jesse Perkins[3]. For some time it was the only such small quad.
+    It was very cheap and safe to fly over people. Now there are many more to
+    choose and everyone hijacked this name as a new category. This is the best
+    choice for a first FPV drone. There are many ready to fly (RTF) packs for a
+    relatively low price to choose like EMAX TinyHawk. They run on 1s batteries.
+    This makes them unpowered. For flying in very tight terrain as an apartment,
+    it's exactly the idea. This also helps new pilots get used to flying. You
+    can fly outside but it will be not good for many tricks and wind will become
+    a problem. But it is still super fun at the beginning.
+
+    [2] https://www.youtube.com/channel/UC4yjtLpqFmlVncUFExoVjiQ
+    [3] https://www.tinywhoop.com/
+
+## HARDWARE YOU NEED
+
+    To fly FPV Drones you need three basic components: a drone, radio
+    controller, and a pair of goggles. Also batteries for all of them, spare
+    propeller, etc. But those main three are the most essential. You'll swap
+    batteries or propellers a lot but stick with the goggles and radio for a
+    long time.
+
+    The drone part is obvious. But the other to are mostly ignored by the
+    regular people. And those are as important as the drone itself.
+
+    Most cheap video drones use your phone/tablet as a steering device. Touch
+    screens are the worst thing to use for super-precise steering. What you need
+    is a (very) good manual controller. Each controller has two sticks and
+    operates in mode 2 - left stick controls yaw and throttle, right roll, and
+    pitch. Those are the most important parts. If there is an option, take one
+    that uses HAL sensors. Some Chinese controllers are not that expensive and
+    use HAL sensors like Jumper T12[4] or T18. I highly recommend them. Using a
+    cheaper, toy-like controller will result in bad flying. This is the first
+    upgrade you should make.
+
+    Goggles are your virtual eyes. You can fly without them in LOS (Line Of
+    Sight). It means flying around you as far as you can clearly see the drone.
+    It's still fun to do but it's nothing compared to the FPV with goggles on
+    your head. Professional goggles are very, very expensive. It's the most
+    expensive part of the FPV hobby. But there are cheaper options. What's the
+    difference between them? Mostly ergonomics and features. I personally still
+    use cheap box goggles[5] that are big and bulky without andy DVR on board.
+    But the video quality is basically the same as it's all analog PAL/NTSC. You
+    can't go higher than that. Start with cheap ones and upgrade when you're
+    ready to dive into the hobby.
+
+    [4] https://www.jumper-rc.com/products/transmitters/t12-pro-hall/
+    [5] https://emax-usa.com/products/emax-transporter-fpv-goggles
+
+## THE SKILL LEVELS
+
+    I invented the 5-level hierarchy for a typical drone pilot. From complete
+    noob to a pro licensed sports star.
+
+    Level 0
+    You don't know anything about the drones. You know they exist and can fly.
+    You have all the hardware, the quad is ready to fly. You crash each time
+    seconds after takeoff. You need to learn everything.
+
+    Level 1
+    You fly in stab/horizon mode. Indoors. You can takeoff a hoover for some
+    time and move around a little bit. You crash after few seconds after
+    finishing any maneuver.
+
+    Level 2
+    You fly in stab/horizon mode. Indoors. You can fly from room to room and get
+    back. It takes time but you can avoid crashes on known paths. You learned
+    the knowledge of moving the sticks very delicately and don't panic when
+    something goes out of plan. You repaired your drone (physically).
+
+    Level 3
+    You fly in stab/horizon mode. Indoors and outdoors. You go outside and can
+    fly around the trees. You crash a few times per pack. You rescued a crashed
+    drone from the tree using turtle mode. You squashed the last juice from the
+    first battery packs and needed a replacement.
+
+    Level 4
+    You fly in air/rate mode. Mostly outdoors. You learned the rate mode and a
+    few basic tricks. You crash once a few packs. You can hit a small gap in a
+    tree. You own more than one drone. You know exactly what each part of the
+    drone works and what upgrades/replacements you want to do. You killed at
+    last one quad.
+
+    Level 5
+    You fly in air/rate mode. Mostly outdoors. You start in a race. You practice
+    individual tricks. You start to train racing. You place gates on the grass.
+    You were on at last one race with prizes.
+
+    This is the last level as you can only be better at anything you already
+    learned. There is no new type of skill to acquire. You spend another 90% of
+    the time to become a master.
+
+## FLYING
+
+    Keeping the quadcopter in the air and steering it is a very difficult task.
+    That's why almost all the drones are driven by computers. Especially the
+    commercial like DJI is making. It needs to be easy and safe to fly. They
+    have many sensors and systems for obstacle avoidance. Pilots do not steer
+    the engines. The pilot gives orders to the drone computer that he wants to
+    fly forward with a given speed, take a turn or stop. Stopping is
+    particularly important because it's way harder than most peoples imagine.
+
+    Racing quads works a little differently. There is still a computer that runs
+    all the motors but there is little help. The pilot is deciding how much and
+    how fast the drone should rotate in a given axis. In reality, there is not
+    even a "forward" nor "stop" action. It's just a pitch rotation.
+
+    Example. As a pilot you push the stick forward, wait for a second and go
+    back to the center. A computer-guided drone will fly forward by pitching
+    down and increase the throttle. Then after that second it will pitch up, use
+    the throttle to slow the forward movement, and then pitch to the horizon and
+    adjust the throttle to hover. Racing drones will pitch down and the drone
+    will fly forward but also decrease altitude. There is no stopping so it will
+    just pitch back and drift.
+
+    If you understand that difference now we can get back to the most important
+    thing. Racing quads have two modes to control those axis rotations.
+
+    Horizon / Stab mode
+    In this mode stick movement control how much rotate the aircraft. Exactly as
+    in the example. If the pilot moves the stick in some direction the drone
+    will rotate the same amount. When the stick is centered the drone will also
+    center. Another benefit of this mode is that the computer helps with keeping
+    the drone aligned with the horizon. That way it's easier to fly and it is
+    used mostly for indoor flying. But this is very limiting.
+
+    Acro / Rate / Normal mode
+    This mode is where the fun begins. It's super hard to learn at first. It's
+    just so different that our brain needs to get used to it. But when it does
+    it's the most freedom and smooth way to fly. So what's all about it? The
+    stick positions define how fast should quad rotates ina given axis. There is
+    zero assistance from the computer.
+
+    For example, you do not keep the stick forward to fly forward it will just
+    keep the drone rotating - pitching slow or fast. Pushing the stick fully
+    forward and keeping it in that position will result in 360 rolls. Until it
+    crashes. To move forward you move the stick a little bit and go back to the
+    center. This way the drone will pitch a little bit and stay that way. You
+    also need to add throttle to not hit the ground. With the right amount of
+    throttle, it will fly forward with too much it will fly up and forward. And
+    it will do this until you correct position by moving the stick back the same
+    amount to pitch back. But if the craft gets the momentum it will drift
+    forward for some time. To really stop it you need to pitch up to use engine
+    force to slow and then in the right moment pitch down to the horizon. If you
+    do this too late it will start to fly backward... It does not feel like fun
+    and it is definitely not for a beginner.
+
+    In both modes the throttle management works the same way - just changes the
+    motors speed. In commercial drones, this stick controls the altitude of the
+    craft.
+
+## THE COOL PARTS
+
+    As you can see flying racing drones is fun and challenging at the same time.
+    Using small whoop you can explore your apartment like never before. See it
+    from the view of a fly. Build tracks from household stuff like chairs and
+    cardboard boxes. Then taking it outside to the garden or near the park is
+    another level of excitement. Racing between trees and branches, chasing
+    birds, looking at the neighborhood from above. Looking at yourself from all
+    angles.
+
+    Finally when you learn acro mode and just start to "feel" the aircraft. Then
+    you become free. The pure feeling of flying whenever you want at any angle
+     or speed.
+
+    You are only blocked by your own reflex and skills.
+
+    To this day I love to just go in the air and fly around. Without any tricks,
+    hitting small gaps, or trying to get the fastest lap. Just be there and fly
+    like a bird. For me, it is an act of meditation. It's hard to describe to
+    someone who never experiences it. Looking at videos and flying yourself in
+    the area you think you know very well is on another level.
+
+    Know what OOBE (Out Of Body Experience) is? Well, FPV is just like that.
+    You can look at yourself and just fly in places you'll never be able to be.
+    I think this is why it's so addicting.
+
+    Not that important but still a perk is just a fact that you have a drone.
+    For many people, it will be a status symbol. Definitely a cool gadget.
+    Strangers stop nearby when I'm flying just to look and comment. And kids
+    love this stuff. When wearing a goggle with pointing antennas and a big
+    radio controller with many switches you look like form dystopian cyberpunk
+    future.
+
+
+## BOTTOM LINE
+
+    There is fun and all. But it's also a good exercise for your mind. You will
+    sharpen your reaction time, spatial awareness, and being calm in stressful
+    situations. In the beginning, you will lack all of those and crash. Training
+    FPV is literally training your brain. You will exceed those skills thanks to
+    this hobby. It will help you on the road while biking or driving.
+
+    Training outside will force you to take fresh air and find new exciting
+    places to fly. For me, it's a reason to leave the apartment. Each journey
+    now a quest to find that perfect spot to ripp. If you're like me and like to
+    spend a lot of time behind the computer everything that encourages me to
+     move is a good thing.
+
+    I hope I interested you and soon you'll be in the air :)
+
+    Happy flying!
+
+=> /fpv/ 🚁 Back to index

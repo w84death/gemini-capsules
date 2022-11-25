@@ -1,0 +1,16 @@
+# Why Gemini?
+
+## Personal story
+Over the years I was chasing this dream of what's now called "small internet". I optimize my web pages to be accessible from low-tech devices. My personal hompage is listed on 512kb.club in sub 256kb category. I do all my notes in plain text files. You may imagine my excitement when I discovered gemini protocol.
+
+So to answer the topic quesion, for me it was the love for txt files and super simple internet.
+
+## Migration
+Since most of my pages was alredy text focused it was easy to port them to this gemini capsule. I ditched all the images in favore of ASCII/ANSI art.
+
+Now I got one simple website with all my writings as a free direcotry next to my notes. Editing and writing was never as easy.
+
+## Floppy
+To clearly show potential of small internet sites I decided to host this capsule fully from the real 3.5" floppy disk.
+
+=> ../ Back to index

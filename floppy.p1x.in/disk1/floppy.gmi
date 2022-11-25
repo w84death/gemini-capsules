@@ -1,0 +1,70 @@
+``` Data Disk Logo
+╭┬┬──▼─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─┬▼┬─────┬╮
+:╰┼▶┄◇ │.......... __________________ .... ╰◇┼◀┄┄┄◀╯:
+├─┴──▲─╯......... /_/  DATA DISK  /_/; ..... ╰╱P1X╱─┤
+│ ...│ ......... / ' P1X CAPSULE ' // ............. │
+│ ...│ ........ / '-------------' // .............. │
+│ ╭──╯ ....... /   .--------.    // ............... │
+│─▼───────────/   /         /   // ─────────────────│
+│ P1X        .___/_________/___//        1440KiB ◇┄┄┤
+│ Digital    '===\_________\==='        3.5" ◇┄┄┄┄┄┄┤
+│ Garden                                            │
+├┄┄┄┄┄┄┄┄◇ Est. 3rd of November 2022.               :
+└────━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━────┘
+```
+# Floppy Capsule
+
+## Disk usage (size on disk)
+``` 365 of 1440 KiB
+╭─────┤ Storage in KiB  ├─────╮
+│   365▐▓▓│░░░░░░░░░░░░▌1440  │
+╰─────────▲───────────────────╯
+```
+
+## Flash News
+> Capsule was moved to the Raspberry Pi computer! (still using Floppy as a data endpoint)
+
+## Table of Content
+Dive into dedicated capsules for respective topics.
+
+### Hot stuff you should read first
+=> micro/article/esp8266-gemini-server.gmi Put gemini server on a ESP8266 microcontroller
+=> floppinux/article/floppinux-on-a-floppy.gmi Create your own 1.44MB Linux distribution
+
+### All Forms of Computers
+=> floppinux/ 🐧 FLOPPINUX Operating System
+=> dos/ My Love for MS-DOS
+=> micro/ 🖳 Software on microcontrollers
+=> selfhost/ Living with IBM ServerX
+
+### Not Computers
+=> fpv/ 🚁 FPV racing drones
+=> cooking/ 🍳 Plant-based cooking corner
+=> misc/ ✨ Miscellaneous content
+
+## Hello, Gemini World!
+My name is __Krzysztof Krystian Jankowski__ also known as __w84death__.
+An old hacker you may say. Indie game developer. Now a producer in realtime graphics.
+
+This is the official P1X capsule curated by me. I'm hosting it from a real 3.5" floppy disk read by original Raspberry Pi single board computer.
+=> kkj/index.gmi More about the author
+=> selfhost/article/tech.gmi Technology behind this capsule
+
+## Contact
+You can contact me by email:
+* 📧 kj@p1x.in
+
+I'm also at Twitter and Mastodon:
+* @w84death
+* @w84death@mastodon.social
+
+
+```Footer
+G ▓▓▓▓  ▓ ▓ ▓ ╮
+E ▓  ▓ ▓▓ ▓ ▓ │ CC0 P1X
+M ▓  ▓  ▓  ▓  │ Proudly curated by
+I ▓▓▓▓  ▓ ▓ ▓ │ Krzysztof Krystian Jankowski ♞
+N ▓     ▓ ▓ ▓ │ ──────────────────────────────────────┄
+I ▓     ▓ ▓ ▓ │ Powered by Raspberry Pi & Agate Server
+╰──┄CAPSULE┄──╯
+```

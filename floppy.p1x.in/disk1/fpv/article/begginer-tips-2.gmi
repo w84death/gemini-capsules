@@ -1,0 +1,79 @@
+# BEGINNER TIPS #2
+Written on Sunday, October 25, 2020
+
+## FAILING
+
+    Never fear crashing the drone. You need to accept that you will crash.
+    You will break the drone. It's a little misleading when you watch videos
+    online of other pilots. You rarely see crashes. And those happen even
+    on the best of the best. Yes, Mr. Steele also crashes!
+
+    That being said the key thing is to get a drone that is rugged while
+    easy and cheap to repair. For me, TinyHawk 2 Race fills those requirements.
+
+    When I started FPV I crashed every 30second. After a few months, it was
+    few crashes per pack. Now after more than half a year, I can fly full
+    pack without a crash. But it's more of a cruising. But when I'm learning
+    some new trick o try to fly fast - crashing are unavoidable.
+    I crashed the TinyHawk so many times. And finally, I brake the carbonfiber
+    frame. But the new one is very cheap and swapping it is easy. I did not
+    brake any prop yet. Avan props are indestructible :)
+
+    There is an unofficial rule that if you do not crash it means you do not
+    learn. You need to go outside your comfort zone and try new, scary things.
+
+## WATER
+
+    There is one exception to the things I write above: water/rain. Do not
+    fly above the body of water. If something gets wrong - you failsafe and
+    the drone drops - it's over. And you will lose the most costly part -
+    the flight controller and/or video transmitter. It is not worth it.
+
+    Rain and wet grass are less dangerous but still can do the same damage.
+
+    If you end up in the water - unplug the battery BEFORE you take the drone
+    out. There is a *little* more chance that it will survive thanks to that.
+    Just put it in the rice for a night.
+
+
+## FLY WEACH WEEK
+
+    Flying each day over and over is not better than flying once a week.
+    It may be not logical at first but that's how our brain works.
+    It needs time to "process". After a few days without flying you'll
+    find that you become way better. I hear that from Mr. Steele and did
+    not believe it. But then I pick up a drone after a long pause due to
+    bad weather and other stuff. And I was impressed by how good my skill was.
+    It happens to me a few more times. Now I know it is true.
+
+    In short - flying day and day will increase your skill just a little bit.
+    Making a few days off and then fly will increase your skills way more.
+
+    If you live in a country like me - Poland - the weather just make the
+    days off for you.
+
+
+## FLY SUPER TIGHT SPACES
+
+    My TinyHawk 2 Race is designed for outdoors. Anyone was saying that
+    it is way too powerful to fly indoors. And that is true in some way.
+    If you want to fly exclusively indoors then yes - use any TinyWhoop.
+    But for me, the challenge of flying a racing drone in super tight spaces
+    is worth the trouble. I learn throttle management and increase my space
+    awarnes dramatically. Yes, I destroy a few plants in the apartment and
+    crashes a lot more. But when I go outdoor and fly in the tree branches
+    it's way easier now.
+
+    I also way better in low flying / low throttle management. It is very
+    difficult with TinyHawk 2 Race as it has motors designed for speed
+    not for precision. But flying in the apartment forces me to learn
+    how to move the stick very, very delicately to keep the quad just
+    above the floor.
+
+    This is super important if you want to hit low gaps under the park
+    benches. I always was impressed by others that hit those. I couldn't
+    see myself doing that at the beginning. It was so hard to do.
+    Now I can do it easily and with confidence. And all of that I owe to
+    flying indoors.
+
+=> /fpv/ 🚁 Back to index

@@ -1,0 +1,23 @@
+# Bookmarks
+In the old days of web each site have a place dedicated to liks to other places. Useful services, catalogs, and friends.
+
+Thanks to this could go on an adventure and start discovering new nitche places all over the web.
+
+Gemini is very similar so here is my own collection of useful capsules.
+
+## Discovery
+=> gemini://medusae.space/ medusae.space gemini directory
+=> gemini://gemini.circumlunar.%20space/capcom/ CAPCOM Geminispace aggregator
+
+## Games/Social
+=> gemini://astrobotany.mozz.us 🪐 Astrobotany Game
+=> gemini://geddit.glv.one/ Geddit Forum
+
+## Services
+=> gemini://gemi.dev/cgi-bin/wp.cgi Gemipedia A Gemini frontend to Wikipedia
+=> gemini://illegaldrugs.net/cgi-bin/ipdata MyIP
+
+## Zine/Gemlog/Podcasts
+=> gemini://gemini.cyberbot.space/smolzine/ smolZINE
+=> gemini://rocketcaster.xyz/ RocketCaster podcasts on gemini
+=> ../ Back to index

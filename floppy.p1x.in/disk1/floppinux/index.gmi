@@ -1,0 +1,35 @@
+# FLOPPINUX - An Embedded 🐧Linux on a Single 💾Floppy
+> Project goal is simple: create latest Linux OS that fits on one floppy and boots right into the embedded application.
+
+## Introduction
+I love floppies. I made my own Linux distribution that runs from just one 1.44MB floppy!
+=> img/floppinux.jpg Picture of FLOPPINUX
+
+The blog post got to the front page of Hacker News. Was reviewed by Hackaday and Adafruit.
+
+My most successful writing yet. Many people read it and made their own variants.
+
+* 152 pints, 85 comments on Hacker News
+* 38 reblogs, 86 boosts, many comments on Mastodon
+* 142 stars, 10 forks at GitHub
+
+## Articles about FLOPPINUX
+=> /floppinux/article/floppinux-on-a-floppy.gmi Floppinux - An Embedded Linux on a Single Floppy
+=> /floppinux/article/64bit.gmi [TODO] Instructions for 64-bit systems
+=> /floppinux/article/sample-app.gmi [TODO] Sample application
+
+## Resources (HTTP)
+=> https://github.com/w84death/floppinux Sources / Home page
+=> https://archive.org/details/floppinux-manual Instruction in ePUB/PDF
+=> https://archive.org/details/floppinux_0.2.1 Floppy Image backup
+
+## Discussion (HTTP)
+=> https://news.ycombinator.com/item?id=27247612 Hacker News
+=> https://hackaday.com/2021/05/24/running-modern-linux-from-a-single-floppy-disk/ HackADay
+=> https://www.hackster.io/news/floppinux-places-a-compact-form-of-linux-on-a-floppy-disk-3f5fdab432b0 hackster.io
+=> https://blog.adafruit.com/2021/05/27/floppinux-an-embedded-linux-on-a-single-floppy-linux-w84death/ Adafruit
+=> https://mastodon.social/web/statuses/106257685960283225 Mastodon
+=> https://gitlab.com/clark_electric/floppinux Fork by clark_electric repo
+=> https://www.youtube.com/watch?v=m5bjI7HoQ50 clark_electric video
+
+=> ../floppy.gmi Back to homepage

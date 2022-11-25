@@ -1,0 +1,48 @@
+# SKILLS YOU LEARN FROM FPV
+Written on July 4, 2020
+
+Flying micro drones is fun. It can be beneficial for your brain also.
+Training FPV flying makes you better in reaction time, fast decision-making
+planning, taming stress, orientation, and some electronics.
+
+Reaction time combined with fast decision making is defining a good pilot.
+Flying at high speed between obstacles there is just no room for thinking.
+Decisions must be made instantaneous. And if the decision was bad or delayed
+it's a crash. And it's not that easy as just not hitting a tree in front of you.
+After that maneuver, there's probably more trees. Deciding how to fly over it
+you need to also think about what will be the next step. There just needs to be
+a space to continue the flight. Saving one hit to just hit something second
+after that is not good. And without this planning, it will end with chaotic
+avoidance one after another. You need to think of all of those possible paths
+and choose one that is a smooth, curved, and safe one.
+
+And when you choose purely you need to correct that fast. Stress will run high.
+It's that moment when you can lose it and start to move the sticks all over the
+place. It always ends in a crash. With more experience, it becomes easier to not
+panic and just barely corrects the flight path.
+
+Another cool thing that eventually becomes unconscious is to always remember
+your orientation in space around. Where the quad is, where are the key points
+of the path you chose and where you are as a pilot. You need those to keep the
+radio signal connected. Flying over that concrete building may end up in losing
+connection and crash. But this is an easy example. In the park you have trees.
+One tree will not make a difference. But when between you and the craft the
+number of trees increases it can be a problem. And when something happens, and
+it will happen for sure, and you crash you need to know where it was for a
+rescue mission. Everything looks different from above. You need to know the
+place you're flying. Keeping track of some distinguishing features of the
+terrain. Like a big tree, some house, you in the middle of a field. All those
+things that will make it easier to map in your brain where the drone is at
+the moment and where it is heading.
+
+The drone will break eventually. You'll brake the antenna or motor. I learn a
+lot about antennas, why it needs to be exactly that long how to solder it
+correctly. Soldering alone will be the first skill you learn. How to handle
+lipo batteries. And many other little things about electronics, physics,
+and safety.
+
+I think that all of those things are very useful in life overall. And learning
+them from such a fun hobby is a great opportunity. It won't be easy but it will
+be a well spend time.
+
+=> /fpv/ 🚁 Back to index

@@ -1,0 +1,91 @@
+# Technology behind the capsule
+
+## (UPDATE) Moved to Raspberry Pi
+I'm in the process of moving the capsule to the ARM machine. End goal is to use the 2011.12 version, the original Pi!
+At the moment I'm testing the setup on the trusty Pi 4.
+
+* agate server (64bit)
+* FDD over USB
+
+More info soon.
+
+## x86 Setup
+
+I'm using Agate server on my trusty IBM rack. I configured it so the content is pointing to a mounted external floppy disk drive.
+
+## Server
+IBM SystemX x3570 M3 with Dual Intel Xeon E5645 (12) @ 1.600GHz, 32GB memory and NVIDIA Quadro K620.
+=> http://194.126.207.20/ Homepage of the IBM server
+
+### Docker Container
+I'm using Docker for all my services so gemini was not an exception. I just followed the simple manual on the agate github page.
+
+=> https://github.com/mbrubeck/agate/tree/master/tools/docker Instructions
+
+In the end I'm starting the container using those commands:
+```
+docker run -t -d \
+  --name gemini-floppy \
+  -p 1965:1965 \
+  -v /media/user/disk:/gmi \
+  -e HOSTNAME=floppy.p1x.in \
+  -e LANG=en-US \
+  --log-driver local \
+  --restart always \
+  agate:latest
+```
+=> https://github.com/mbrubeck/agate Agate gemini server
+
+### HTTP Proxy
+For regular users I also host a dedicated gemini-to-HTTP proxy. Im using the September tool also in docker.
+
+```
+docker run -d \
+--name gemini-rss \
+-e ROOT='gemini://floppy.p1x.in' \
+--restart always \
+--net proxy-manager_default \
+fuwn/september:latest
+```
+=> https://github.com/gemrest/september September HTTP proxy
+=> https://www.w3.org/StyleSheets/Core/Overview CSS themes (I choosed Midnight)
+
+## Content
+### Directory on floppy disk
+I keep the hierarchy clean and consistent.
+```Directory hierarchy
+-/disk/
+  |- capsule_name/
+  |  +- article/
+  |  |  |- article1.gmi
+  |  |  |- ...
+  |  |  +- articleN.gmi
+  |  +- index.gmi
+  +- index.gmi
+```
+
+Articles ends up with:
+```
+=> ../ Back to index
+```
+This way I have an clear and easy way to go back using links.
+
+### Updating
+As all the files are plain text I just keep the directory in my personal notes.
+Whenever I want to edit or add some page I just go to that folder and edit in text editor of my choise. At this moment it's Lite XL.
+=> https://github.com/lite-xl/lite-xl Lite XL
+
+Then when I done with drafts and want to publish my changes I use FileZilla. I added dedicated profile that opens coresponding folder on my local machine and the server (Floppy disk!). Then I upload using "change only new files". And that is it.
+
+### RSS Feed
+For generating fresh feed I'm using Fesh tool. After installing it on the server I just run the script to regenerate atom.xml.
+
+```
+#!/bin/bash
+fesh -d floppy.p1x.in -c 'Floppy Capsule' -r /media/user/fdd -o /media/user/fdd
+```
+
+=> https://github.com/ricardogj08/fesh
+
+
+=> ../ ✨ Back to index

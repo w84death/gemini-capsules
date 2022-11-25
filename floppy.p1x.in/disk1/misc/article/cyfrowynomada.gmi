@@ -1,0 +1,77 @@
+# Cyfrowy Nomada
+
+* Seven years as a Front-End Developer at Pearson UK.
+* Eight years and counting as Indie Game Developer, founder of P1X Studio.
+* Now as a Digital Nomad serving my skills and experience for businesses around the world like yours.
+
+## Experience
+Worked in small creative teams and big corporate environments. Under time pressures and open-minded brainstorming sessions.
+
+### Creative
+Forward thinking, creative solutions for your existing and future projects. Lead design teams. Trained in Event Storming.
+
+### UX/UI & Accessibility
+Worked on education software. From iOS app to on-line teaching platform used by 10 million kids and teachers.
+Adapt software and designs for WCAG accessibility requirements.
+
+### Public appearances
+Prepares and presents demos at scrum ceremonies. Represents business at expos. Lectures at big events.
+
+### Game Development
+Use Godot Engine as the main engine since 2015. Used to made many games on it and a few lectures about it.
+Now Unity and mostly Unreal Engine 5 for professional work.
+
+### Social Media
+Have a strong twitter community with 1,5K Followers. 4K tweets. Gets up to 80K impressions each month (as of Feb 2020).
+Moved to the Mastodon rescently. 700 Followers, 2K toots.
+
+### Agile
+Over 7 years of work in professional scrum teams with more than 120 co-workers. Always friendly and helpful.
+Team leading the P1X game development group. Worked on tide schedules at many game-jams.
+
+### Git
+Know, use and advocate GIT usage on all important projects. Have 70+ repositories, 17 stars and 100+ flowers on GitHub.
+
+### JavaScript/HTML5
+10+ years of experience in vanilla JS, AngularJS, ImpactJS, JQuery and some more — now obsolete libs. Don’t afraid of working with legacy code.
+A strong advocate for simple, well-formatted web pages.
+
+### Linux & FOSS
+More than 7 years of experience with Linux on PCs, servers and Raspberry Pi. An advocate of free and open-source.
+
+
+## Hardware & Software
+Self sustains with all the necessary equipment to work on any IT projects remotely.
+
+### Computers
+* SteamDeck 256GB SSD, Custom APU, 16GB RAM.
+* Notebook Dell G5 with Intel i7-9750H (12) @ 4.5GHz, 32GB memory and NVIDIA GeForce RTX 2070 MaxQ.
+* PC with Intel i3-7100 (4) @3.9Ghz, 16GB memory and NVIDIA GeForce RTX 2060.
+
+### I/O
+Wacom Cintiq 16, Eizo 24”, NEC 40”, MIDI Korg keyboard, Tascam Audio Recorder.
+
+### Servers
+* IBM SystemX x3570 with Dual Intel Xeon E5645 (12) @ 1.600GHz, 32GB memory and dual NVIDIA Quadro K620.
+* IBM SystemX x3250 as personal NAS.
+
+### Internet
+Public IP symmetrical 500Mbps network with Linksys WRT1200AC.
+
+### 3D Printer
+Anycubic 4Max Pro with PLA and wood filaments.
+
+## Business
+Open for any short-term work. Web pages, game prototyping, accessibility fixes for existing sites, etc.
+
+### Business card
+
+* Full company name:	Cyfrowy Nomada Krzysztof Jankowski
+* E-Mail: nomada@krzysztofjankowski.com
+* NIP: 7822277719
+* Phone: +48501135709
+* REGON: 385540057
+
+=> https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=6f8936d9-a5aa-46a5-8186-02303dbd44e7 Full details at prod.ceidg.gov.pl
+
+=> ../ ✨ Back to index

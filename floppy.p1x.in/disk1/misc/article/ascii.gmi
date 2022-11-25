@@ -1,0 +1,31 @@
+# Useful ASCII/ANSI Characters
+I'm often use ASCII art for the low-end internet pages. Here I combined the most useful characters for easy copy&pasting.
+
+## Frames
+```
+┌ ┬ ─ ┐ ╭ ╮
+│ ├ ┼ ┤ ╰ ╯
+└ ┴ ─ ┘
+┏ ┳ ━ ┓
+┃ ┣ ╋ ┫
+┗ ┻ ━ ┛
+```
+
+## Misc
+```
+▇ ▓ ▒ ░ ■ ≡
+╱ ╲ ╳ ▶ ▲ ▼ ◀ ◇ ┄
+```
+
+## UI
+``` 99 of 9999
+╭───────┤ progress ├───────╮
+│ 0099▐▓▓▓▓▓│░░░░░░░░▌9999 │
+╰───────────▲──────────────╯
+```
+``` FLOPPY CAPSULE #01
+╭┬┬──▼─━━━━━━━━━━━━━━━━━━━━─┬▼┬─────┬╮
+:╰┼▶┄◇  FLOPPY CAPSULE #01  ╰◇┼◀┄┄┄◀╯:
+└─┴──▲─━━━━━━━━━━━━━━━━━━━━──▲┴╱P1X╱─┘
+```
+=> ,,/ ✨ Back to index

@@ -1,0 +1,14 @@
+# Cooking Corner 👨‍🍳
+Capsule with my own recepies developed mostly during the initial COVID-19 lockdowns.
+
+## Recipes
+All are vegan frendly 🥗 and moslty gluten free 🆓.
+
+=> /cooking/recipe/coffee.gmi Coffee ☕ around the world 🌍
+=> /cooking/recipe/pancakes.gmi Pancakes 🥞
+=> /cooking/recipe/polish-ramen.gmi Polish Ramen 🍲
+=> /cooking/recipe/polish-samosa.gmi Polish Samosa 🥟
+=> /cooking/recipe/rice-bread.gmi Rice pancakes 🍚🥞 as bread replacement 🍞
+=> /cooking/recipe/yellow-rice.gmi Yellow Rice 🍚
+
+=> ../floppy.gmi Back to homepage

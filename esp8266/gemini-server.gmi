@@ -1,0 +1,80 @@
+# ESP8266: Gemini Server Setup
+## My journey to hosting gemini capsule on a microcontroller.
+Looking at the Gemini Protocol principles ESP8266 fits perfectly as a low-end server dedicating to one, simple capsule (<512KB).
+It uses so little power it can run on batteries! But I keep mine connected to the big server USB port.
+
+> The road was not rossy at all. It was a series of mistakes, unknowns and missinformation.
+
+At the end I got everything working and I wanted to share this knowlege for all of you!
+
+## Setup
+### Software nad Hardware
+I'm using the cheapest ESP8266 with a simple USB-to-TTY adapter. The only thing I did was to add a button for easy flashing.
+=> ready-to-go-setup.gmi Read the Ready to go Setup to get started
+
+## Generating keys
+I found out that this simple computer can not handle big/secure RSA keys like 4096. The size of 512 works fine.
+```
+openssl req -x509 -newkey rsa:512 -keyout key.rsa -out cert.pem -days 3650 -nodes -subj "/CN=your.domain.com"
+```
+Remember to change "your.domain.com". This will be the domain you got registered and setup (with SSL) on your server already.
+
+After that you will get key.rsa and cert.pem. Content of those files will be needed in next steps.
+
+Get the content ready to copy and paste:
+
+```
+$ cat key.rsa
+-----BEGIN PRIVATE KEY-----
+ALotOfRandomLettersAndNumersALotOfRandomLettersAndNumersALotOfRa
+ndomLettersAndNumersALotOfRandomLettersAndNumersALotOfRandomLett
+-----END PRIVATE KEY-----
+```
+
+```
+$ cat cert.pem
+-----BEGIN CERTIFICATE-----
+ALotOfRandomLettersAndNumersALotOfRandomLettersAndNumersALotOfRa
+ndomLettersAndNumersALotOfRandomLettersAndNumersALotOfRandomLett
+-----END CERTIFICATE-----
+```
+
+## Server code
+I'm using Astra code as the base.
+=> https://github.com/Astrrra/ESP8266GeminiServer Astrrra repository
+
+### Fork
+I needed to change few things, fix bugs, and add debug logging. So I made my fork.
+
+=> https://github.com/w84death/ESP8266GeminiServer ESP8266GeminiServer
+
+Download it and put in your ~/Arduino/ projects directory.
+
+### Update config.h
+Open config.h and put WiFi creditentials and content of RSA keys accordingly.
+
+### Flash
+Now just compile and flash the main code.
+
+## Server data (SPIFF)
+All the files lives at data/gemini/ subdirectory (where you keep the code). There is a sample index.gmi just to test if everything works.
+My ESP8266 got only 1MB of FLASH. I can use half of that for a files system. In terms of Gemini capsules thats a lot!
+
+### Flash
+* Add your capsule files to data/gemini/
+* Set Flash size -> 1MB (FS:512KB).
+* Use the tools -> ESP8266 LittleFS Data Upload to upload /data/ to the FLASH.
+
+## Networking
+I'm using proxy-manager for all my domains. On my router I forwarded port 1965 to the IP of ESP8266.
+Now when I put the URL in gemini browser It got SSL resolved but got data from the microcontroller.
+
+> For testing I'm using second forward 1966 to get two servers working at once.
+
+## Go live!
+Now you can restart (replug USB) the microcontroller and open serial monitor to see what is happening.
+It is also very usefull to get the IP of the board.
+
+Open the (gemini) browser and put your domain in. If everything works fine you shoudl see the content of your new capsule!
+
+=> / Back to home

@@ -1,0 +1,19 @@
+# BEGINNER TIPS #1
+Written on Saturday, April 18, 2020
+
+If you're a beginner you should always have those simple tips in the back of
+your head.
+
+1. Never fly over other peoples, crowds or private possessions.
+2. Buy a DVR equipment and record each fly. If you lost your drone you can
+look at the recording and figure out where it was last in the air.
+3. Enable turtle mode if you can! It **will** saves you from many dead-end
+situations like drone stuck in the tree.
+4. Get familiar with your spot and pay attention to the places where the wind
+always winds from one direction.
+5. Pay attention to the battery level. Fly closer to you when battery capacity
+is at the end (~3.0V).
+6. Don't leave fully powered batteries for too long. Use them, recharge them.
+7. Fly as much as you can. Each day :)
+
+=> /fpv/ 🚁 Back to index

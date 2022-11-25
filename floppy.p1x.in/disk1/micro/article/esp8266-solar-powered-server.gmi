@@ -1,0 +1,45 @@
+# ESP8266: Solar Powered Server
+
+## Low-tech, High-life
+In true low-tech fasion I'm hosting this micro capsule from a €1 microcomputer powered by a solar energy!
+=> ../img/capsule-live.jpg Image of the capsule in its natural environment ;) [29.2KB]
+
+Solar-powered means that it is ON-LINE only when there is enough sun thru the day to recharge the battery.
+
+> It's a proof-of-concept an a little poligon. My end goal is to have small, cheap and realiable device to host gemini capsules in the rural areas.
+
+## Hardware List
+
+* 🖳 ESP-01S ~€1
+* 🌞 Solar cell 0,7W/5,5V €4.10
+* 🂠 Lipol charger TP4056 1S 3,7V  €1.37
+* 🔋 EMAX 1s 450mAh battery ~$9 (I got mine from a drone)
+
+## Hardware Specs
+
+### Specifications of 🖳 microcontroller
+* ESP-01S
+* 80MHz RISC 32-bit CPU: Tensilica Diamond Standard 106Micro
+* 32KiB RAM RAM: 32 KiB instruction, 80 KiB user data
+* 1MB FLASH (~420KB for user data)
+* WiFI 2.4GHz
+* 220mA in peek power usage
+* 3.3V / 250mA
+
+### Specifications of 🌞 solar cell
+* Power: 0.7 W
+* Output voltage: 5,5 V
+* The dimensions of the plate: 95 x 95 x 3 mm
+
+### Specification of 🂠 TP4056
+* Power supply voltage: (microUSB or IN connectors) from 4.5 V to 5.5 V
+* Charging voltage: 4,2 V
+* Maximum charging current: 1 A
+* Module dimensions 26 x 18 mm
+
+### Specification of 🔋 battery
+* Voltage: 1s 4.35v HV
+* Capacity: 450 mAh
+* Discharge rating: 80c/160c
+
+=> /micro/ Back to index

@@ -1,0 +1,57 @@
+# Using and Restoring ESP8266 AT Firmware
+Written on Jan 29, 2022
+
+> As much as I like super small hardware there is one thing I lke even more * abscure, small operating systems. Technicaly speakong AT is not an OS but for me it works as one. And beside curiosity it actlualy have it's purpouse.
+
+## ESP-AT
+From the producer webpage:
+> In an effort to facilitate this and cut down on engineering costs, Espressif Systems has developed a set of AT commands that can be used to interface with Espressif products.
+
+The AT command firmware allows for rapid integration by providing:
+
+* In-built TCP/IP stack and data buffering
+* Easy integration with resource-constrained host platforms
+* Easy-to-parse command-response protocols
+* Customized, user-defined AT commands
+
+## Why restoring?
+Each time you push the new code to the ESP you replace whole memory. This means any AT firmware that was there is no longer available. To restore the ESP8266 to its factory OS you need to reflash it. It's as easy as pushing code from Arduino just requires precise configuration.
+
+## Software
+For reasons my ESP-01S only works with the V1.6.2 base. Anything newer is not compatible anymore. That's not a problem and this is still an upgrade.
+
+You will need:
+
+=> https://www.espressif.com/sites/default/files/ap/ESP8266_NonOS_AT_Bin_V1.7.4.zip ESP8266 NonOS AT Bin V1.6.2
+=> https://www.espressif.com/sites/default/files/tools/flash_download_tool_3.9.0_0.zip Flash Download Tools
+
+## Documentation
+Those two documents cover the most common scenarios.
+
+=> https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf ESP8266 Non-OS AT Instruction Set
+=> https://www.espressif.com/sites/default/files/documentation/4b-esp8266_at_command_examples_en.pdf ESP8266 AT Command Examples
+
+## Flashing
+This step is easy only if you know what to push. After some investigation, I get that exact step by step for you :)
+
+Run the Download Tool. Set it up exactly as in the image below.
+
+Files and memory location:
+
+* blank.bin 0xFB000, 0x7E000, 0xFE000
+* esp_init_data_default.bin 0xFC000
+* boot_v1.6.bin 0x00000
+* at\512+512\user1.1024.new.2.bin 0X01000
+
+Flash config:
+
+* 40Mhz
+* DOUT
+* Uncheck DoNotChgBin
+
+Push START. Remember to connect GND and PIN0 for programming mode.
+
+## Next step
+=> /micro/article/fun-with-at.gmi Fun with AT commands
+
+=> /micro/ Back to index

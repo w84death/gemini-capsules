@@ -1,0 +1,39 @@
+# 🖳 Microcomputers
+
+## ESP8266
+This little device smaller than a poststamp got a lot of power!
+=> img/server.jpg Server image [27KB]
+
+* 80MHz CPU
+* 80KB RAM (for user)
+* 1MB FLASH (~420KB usable for user data)
+* Uses up to 220 mA (usualy 150mA)
+* Costs around $1 (plus another for USB adapter)
+
+### Articles
+=> article/esp8266-solar-powered-server.gmi ESP8266: Solar Powered Server
+=> article/esp8266-gemini-server.gmi ESP8266: Gemini Server Setup
+=> article/esp8266-ready-to-go-setup.gmi ESP8266: Ready to go Setup
+=> article/plant-best-friend.gmi Plant Best Friend - ESP8266 Monitoring
+=> article/at-firmware.gmi Using and Restoring ESP8266 AT Firmware
+=> article/fun-with-at.gmi Fun with AT commands
+
+### Resources
+=> https://8266.p1x.in/ 8266 HTTP Web server online
+
+## Raspberry Pi
+
+I got quite a collection:
+
+* Raspberry Pi 2012 (original one)
+* Raspberry Pi 2B+
+* Raspberry Pi 3B+
+* Raspberry Pi 4 (4GB)
+* Raspberry Pi Zero
+* Raspberry Pi Zero W
+
+### Articles
+=> article/raspberry-pi-vnc.gmi Raspberry Pi VNC Configuration
+
+=> ../floppy.gmi Back to homepage
+
