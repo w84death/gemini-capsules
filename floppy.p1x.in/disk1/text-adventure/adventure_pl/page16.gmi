@@ -10,5 +10,5 @@ Gratulacje! Udało Ci się pomyślnie ukończyć The Doorway: A Text Adventure.
 
 Czy:
 
-=> Rozpocznij przygodę ponownie (/index.gmi)
-=> /floppy.gmi Wroc do indeksu
+=> index.gmi Rozpocznij przygodę ponownie
+=> /floppy.gmi Wroc do strony startowej

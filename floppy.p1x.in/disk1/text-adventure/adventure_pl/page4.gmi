@@ -8,5 +8,5 @@ Zapalasz pochodnię, aby oświetlić pokój i przyjrzeć się swojemu otoczeniu 
 
 Czy:
 
-=> Podążać za mapą, aby odnaleźć skarb (/page8.gmi)
-=> Badać artefakty bliżej (/page9.gmi)
+=> page8.gmi Podążać za mapą, aby odnaleźć skarb
+=> page9.gmi Badać artefakty bliżej

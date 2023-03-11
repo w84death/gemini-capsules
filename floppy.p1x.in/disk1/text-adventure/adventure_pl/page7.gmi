@@ -12,4 +12,4 @@ Dziękujemy za udział w naszej przygodzie i happy hacking!
 
 Czy:
 
-=> Wróć do gry i kontynuuj swoją przygodę (/index.gmi)
+=> index.gmi Wróć do gry i kontynuuj swoją przygodę

@@ -10,7 +10,7 @@ Znajdujesz się przed tajemniczą drzwiami, niepewny, jak się tu znalazłeś. D
 
 Czy:
 
-=> Otworzyć drzwi i wejść do środka (/page2.gmi)
-=> Odwrócić się i odejść (/page3.gmi)
+=> page3.gmi Otworzyć drzwi i wejść do środka
+=> page2.gmi Odwrócić się i odejść
 
-=> /floppy.gmi Wroc do indeksu
+=> /floppy.gmi Wroc do strony startowej

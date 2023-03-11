@@ -6,6 +6,6 @@ Przyglądasz się starożytnym artefaktom w pokoju, badając każdy z nich uważ
 
 Czy:
 
-=> Kontynuować badanie artefaktów, aby dowiedzieć się więcej o Chimera (/page12.gmi)
-=> Wróć do mapy i podążaj za nią, aby znaleźć skarb (/page8.gmi)
-=> Wróć do centrum pokoju (/page4.gmi)
+=> page12.gmi Kontynuować badanie artefaktów, aby dowiedzieć się więcej o Chimera
+=> page8.gmi Wróć do mapy i podążaj za nią, aby znaleźć skarb
+=> page4.gmi Wróć do centrum pokoju

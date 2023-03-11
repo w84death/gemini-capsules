@@ -8,5 +8,5 @@ Ale kiedy sięgasz po skarby, słyszysz niskie warczenie dochodzące z cienia. Z
 
 Czy:
 
-=> Walczyć ze stworzeniem i zdobyć skarb dla siebie (/page13.gmi)
-=> Spróbować przemknąć obok stworzenia i uciec z tym, co możesz unieść (/page14.gmi)
+=> page13.gmi Walczyć ze stworzeniem i zdobyć skarb dla siebie
+=> page14.gmi Spróbować przemknąć obok stworzenia i uciec z tym, co możesz unieść

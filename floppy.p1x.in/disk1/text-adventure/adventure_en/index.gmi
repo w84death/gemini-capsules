@@ -10,7 +10,7 @@ You find yourself standing in front of a mysterious door, unsure of how you got 
 
 Do you:
 
-=> page2.gmi Open the door and step inside
-=> page3.gmi Turn and walk away
+=> page3.gmi Open the door and step inside
+=> page2.gmi Turn and walk away
 
 => /floppy.gmi Back to index

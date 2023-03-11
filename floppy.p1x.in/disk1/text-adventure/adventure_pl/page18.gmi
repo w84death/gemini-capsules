@@ -10,5 +10,5 @@ Nie udało ci się ukończyć The Doorway: A Text Adventure.
 
 Czy:
 
-=> Zacznij przygodę od nowa (/index.gmi)
-=> /floppy.gmi Wroc do indeksu
+=> index.gmi Zacznij przygodę od nowa
+=> /floppy.gmi Wroc do strony startowej

@@ -10,5 +10,5 @@ Nagle znajdujesz się ponownie przed tajemniczą drzwiami, niepewny, jak się tu
 
 Czy:
 
-=> Otwórz drzwi i rozpocznij przygodę ponownie (/index.gmi)
-=> /floppy.gmi Wroc do indeksu
+=> index.gmi Otwórz drzwi i rozpocznij przygodę ponownie
+=> /floppy.gmi Wroc do strony startowej

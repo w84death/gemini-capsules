@@ -6,5 +6,5 @@ Używasz swoich zmysłów, aby zbadać pokój w ciemności. Kiedy przeprowadzasz
 
 Czy:
 
-=> Otworzyć drzwi i zbadać źródło dźwięku (/page10.gmi)
-=> Kontynuować badanie pokoju z zastosowaniem zmysłów (/page11.gmi)
+=> page10.gmi Otworzyć drzwi i zbadać źródło dźwięku
+=> page11.gmi Kontynuować badanie pokoju z zastosowaniem zmysłów

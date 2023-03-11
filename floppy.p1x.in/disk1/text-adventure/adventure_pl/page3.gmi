@@ -6,5 +6,5 @@ Przechodzisz przez drzwi i znajdujesz się w słabo oświetlonym pokoju. Powietr
 
 Czy:
 
-=> Zapalić pochodnię, aby oświetlić pokój (/page4.gmi)
-=> Użyć zmysłów, aby badać pokój w ciemności (/page5.gmi)
+=> page4.gmi Zapalić pochodnię, aby oświetlić pokój
+=> page5.gmi Użyć zmysłów, aby badać pokój w ciemności

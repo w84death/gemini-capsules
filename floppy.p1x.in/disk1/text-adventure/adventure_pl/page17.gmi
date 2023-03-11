@@ -1,14 +1,14 @@
 # The Doorway: A Text Adventure
 
-## The Spell of Thunder
+## Czar Pioruna
 
-You focus your energy and cast a spell of thunder at the creature. A bolt of lightning strikes the creature, electrocuting it and causing it to convulse uncontrollably. The creature falls to the ground, defeated.
+Skupiasz swoją energię i rzucaisz czar pioruna na stworzenie. Błyskawice uderzają w stworzenie, ale wydaje się, że nie ma to na nie wpływu. Stworzenie atakuje cię, a ty próbujesz uniknąć jego ataków. Jest jednak zbyt szybkie i atakuje cię swoimi pazurami, powalając na ziemię.
 
-As the smoke clears, you see the treasure gleaming in the corner of the room. You approach it cautiously, unsure if there are any more dangers lurking in the shadows. But the room is silent, and you claim the treasure as your own.
+Starasz się wstać i obronić, ale stworzenie jest zbyt potężne. Przezwycięża cię i przejmuje skarb dla siebie.
 
-Congratulations! You have successfully completed The Doorway: A Text Adventure.
+Nie udało ci się ukończyć The Doorway: A Text Adventure.
 
-Do you:
+Czy:
 
-=> Start the adventure again (/index.gmi)
-=> /floppy.gmi Wroc do indeksu
+=> index.gmi Zacznij przygodę od nowa
+=> /floppy.gmi Wroc do strony startowej

@@ -6,6 +6,6 @@ Wyciągasz swój miecz i przygotowujesz się do walki ze stworzeniem. Potwór rz
 
 Czy:
 
-=> Rzuć czar ognia, aby spalić stworzenie (/page16.gmi)
-=> Rzuć czar lodu, aby zamrozić stworzenie (/page17.gmi)
-=> Rzuć czar pioruna, aby porazić stworzenie prądem (/page18.gmi)
+=> page16.gmi Rzuć czar ognia, aby spalić stworzenie
+=> page17.gmi Rzuć czar lodu, aby zamrozić stworzenie
+=> page18.gmi Rzuć czar pioruna, aby porazić stworzenie prądem

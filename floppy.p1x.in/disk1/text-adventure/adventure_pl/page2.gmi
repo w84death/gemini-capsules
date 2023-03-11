@@ -10,5 +10,5 @@ Nie udało Ci się odkryć tajemnicy The Doorway.
 
 Czy:
 
-=> Rozpocząć przygodę od nowa i spróbować odkryć tajemnicę (/index.gmi)
-=> /floppy.gmi Wroc do indeksu
+=> index.gmi Rozpocząć przygodę od nowa i spróbować odkryć tajemnicę
+=> /floppy.gmi Wroc do strony startowej

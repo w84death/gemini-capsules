@@ -5,4 +5,5 @@ Welcome to "The Doorway," a thrilling text adventure that will test your wits an
 Select your language:
 => adventure_en/ English version
 => adventure_pl/ Wersja polska
+
 => /floppy.gmi Back to index
