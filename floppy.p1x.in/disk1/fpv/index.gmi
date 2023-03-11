@@ -4,11 +4,7 @@ Capsule dedicated to flying micro drones
 ## FPV TinyHawk Pilot
 Each day with a grounded drone is a lost opportunity to be a better pilot.
 
-## About me
-My name is Krzysztof Krystian Jankowski. I am known on the web as w84death.
-
-I'm a web and game developer and 3D artist. In 2020 I discovered drone racing and a very small vehicles known as Micro Air Vehicle. The new hobby begins.
-
+## Backstory
 I started with DJI Tello but it was more of a flying camera. Then I got TinyHawk RTF combo and started FPV flying. Since then I'm addicted and the concept took me by storm. I just love to fly. I'm a big fan of TinyHawk... drones.
 
 Flying FPV in Acro mode is not an easy task. But learning to master it is very satisfying. I created this page to document my progress. I hope it will make you interested in the hobby and keep motivated to keep learning.

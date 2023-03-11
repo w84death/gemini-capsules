@@ -1,8 +1,73 @@
-# Selfhosting 🖧
-Capsule about having a server in your flat and taking care of it.
+```
+ ┃╰────────────────────────────────────────────────────╯┃
+ ┃╭────────────────────────────────────────────────────╮┃
+ ┃│ [◇▒▒▒▒▒] [◇▒▒▒▒▒] [░░░░░░] [░░░░░░] [] [≡≡≡] x3570 │┃
+[■■][◇▒▒▒▒▒] [◇▒▒▒▒▒] [░░░░░░] [░░░░░░] [] ◇ ◇ ◇ ■   [IBM]
+ ┃╰────────────────────────────────────────────────────╯┃
+ ┃╭────────────────────────────────────────────────────╮┃   .kkj '22
+```
+# Selfhoting Homelab Servers
+Instead of giving my data to some cloud provider I prefer to run my own servers. It's a fascinating hobby that force me to learn so many things. Keeping all those services up and running may feel overhelming for newcomers.
+> What looks like lot of problems at begining turns out to be a pease of mind in the end
+Good servers and stable open source software once run keeps running forever. You just need to find the tools that suits your need and expertise. I hope that informations published here will help and inspire you to try!
 
+Since I was young I was fascinated by the big computers. Most likly somekind of a server. I only dreamed about mineframes. I never saw one in real life.
+In one of my first jobs I was doing a help desk stuff. One of them was to path-cross cables for internal phone line. So at one end I needed to actually touch the server rack. In actual server room. Only few people can enter it using magnetic cards. It was then that I know I will have one off those. Sooner or later.
 
-## Articles
+=> img/ibm-systemx-servers.jpg Photo of a server rack [27KB]
+It take few years but I got my trusty IBM ServerX.
+
+## From cloud to home rack
+The story how I started my home lab server is quite intresting and worth to share.
+
+TBC.
+
+What the story will cover:
+* Some shady, cheap server outhere
+* Locked account and data
+* Raspberry Pi 2011
+* Dual setup and more PIs (friends)
+* First IBM ServerX
+* Second IBM ServerX
+* ESP8266
+* Raspberry Pi 4
+* Retairment of the first IBM ServerX
+
+## IBM SystemX x3570 M3 - The Main P1X
+This is a real power horse. It is engineered perfectly and with years of experience. You feel it in every aspect - hardware and software.
+Runs on Ubuntu LTS Server.
+* Dual Intel Xeon E5645 (12) @ 1.600GHz
+* 32GB memory
+* 4x SAS HDD RAID
+* NVIDIA Quadro K620
+* 40" NEC Monitor
+* Microlab Stereo
+
+## IBM SystemX x3250 - Vault (NAS)
+Soon to be retired and replaced by a Raspberry Pi.
+Runs on OpenMediaVault OS.
+* Intel Xeon 3040 (2) @1.86Ghz
+* 4GB memory
+* 2TB disk
+
+## Raspberry Pi
+My current poligon for what will be a next chapter in my server lab.
+Instead of one or few big servers that takes a lot of power and space I would like to have many Raspberry Pis dedicated to individual services.
+=> ../img/pi.jpg Photo of Raspberry Pi server [29KB]
+
+Rough plan that I started implementing:
+* Raspberry Pi 2011 - Gemini capsules (sites)
+* Raspberry Pi 3 - HTTP sites
+* Raspberry Pi 4 - Nextcloud, ghost, jellyfin, etc.
+* Raspberry Pi 2 - 3D Printer
+* Raspberry Pi 2/3 - NAS
+
+## ESP8266
+As silly it may looks I got two microcontrollers (in a size of a post stamp) that hosts legitimate websites. Small and optimized but still.
+* https://esp8266.p1x.in HTTP site
+* gemini://floppy.p1x.in:8266 Gemini capsule (solar powered when possible)
+
+### Articles
 => article/tech.gmi Docker and gemini - tech bechind this capsule
 
 => ../floppy.gmi Back to homepage

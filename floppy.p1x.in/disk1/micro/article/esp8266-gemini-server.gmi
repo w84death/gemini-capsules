@@ -78,4 +78,12 @@ It is also very usefull to get the IP of the board.
 
 Open the (gemini) browser and put your domain in. If everything works fine you shoudl see the content of your new capsule!
 
-=> /micro/ Back to index
+### My ESP server
+This whole article is also shared on the dedicated gemini capsule. It's just a proof-of-concept so do not expect anything new there.
+
+> It is a good test of real speed of this small computer.
+
+=> gemini://floppy.p1x.in:8266
+
+
+=> ../ Back to index

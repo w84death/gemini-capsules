@@ -3,7 +3,7 @@ I'm often use ASCII art for the low-end internet pages. Here I combined the most
 
 ## Frames
 ```
-┌ ┬ ─ ┐ ╭ ╮
+┌ ┬ ─   ╭ ╮
 │ ├ ┼ ┤ ╰ ╯
 └ ┴ ─ ┘
 ┏ ┳ ━ ┓
@@ -28,4 +28,15 @@ I'm often use ASCII art for the low-end internet pages. Here I combined the most
 :╰┼▶┄◇  FLOPPY CAPSULE #01  ╰◇┼◀┄┄┄◀╯:
 └─┴──▲─━━━━━━━━━━━━━━━━━━━━──▲┴╱P1X╱─┘
 ```
-=> ,,/ ✨ Back to index
+
+```Footer
+G ▓▓▓▓  ▓ ▓ ▓ ╮
+E ▓  ▓ ▓▓ ▓ ▓ │ CC0 P1X
+M ▓  ▓  ▓  ▓  │ Proudly curated by
+I ▓▓▓▓  ▓ ▓ ▓ │ Krzysztof Krystian Jankowski ♞
+N ▓     ▓ ▓ ▓ │ ──────────────────────────────────────┄
+I ▓     ▓ ▓ ▓ │ Powered by Raspberry Pi & Agate Server
+╰──┄CAPSULE┄──╯
+```
+
+=> ../ ✨ Back to index
