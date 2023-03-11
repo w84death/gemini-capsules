@@ -15,14 +15,14 @@
 # Floppy Capsule
 
 ## Disk usage (size on disk)
-``` 440 of 1440 KiB
+``` 620 of 1440 KiB
 ╭─────┤ Storage in KiB  ├─────╮ ╭──────────╮
-│   440▐▓▓▓│░░░░░░░░░░░▌1440  ├─┤ 72 FILES │
+│   620▐▓▓▓▓▓▓|░░░░░░░░▌1440  ├─┤ 92 FILES │
 ╰──────────▲──────────────────╯ ╰──────────╯
 ```
 
 ## Flash News
-> Capsule was moved to the Raspberry Pi computer! (still using Floppy as a data endpoint)
+> Added ChatGPT generated text adventure and my pico-8 carts
 
 ## Table of Content
 Dive into dedicated capsules for respective topics.
@@ -37,6 +37,7 @@ Dive into dedicated capsules for respective topics.
 => dos/ My Love for MS-DOS
 => micro/ 🖳 Software on microcontrollers
 => selfhost/ Living with IBM ServerX
+=> pico8/ Pico-8 Fantasy Console
 
 ### Not Computers
 => text-adventure/ Text adventure written by ChatGPT
