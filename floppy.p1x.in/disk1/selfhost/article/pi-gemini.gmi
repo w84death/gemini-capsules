@@ -1,0 +1,19 @@
+``` Gemini Server
+  ____ _____ __  __ ___ _   _ ___ ____
+ / ___| ____|  \/  |_ _| \ | |_ _/ ___|  ___ _ ____   _____ _ __
+| |  _|  _| | |\/| || ||  \| || |\___ \ / _ | '__\ \ / / _ | '__|
+| |_| | |___| |  | || || |\  || | ___) |  __| |   \ V |  __| |
+ \____|_____|_|  |_|___|_| \_|___|____/ \___|_|    \_/ \___|_|
+
+ ```
+# Raspberry Pi Gemini Server
+
+## Updated setup that host this capsule.
+
+=> ../img/pi3-gemini.jpg Latest image [21KB]
+
+I've added a small digital TV screen so I can see the log of the server. I learned that most of the time soem robot reads robots.txt file :)
+
+
+
+=> ../index.gmi Back to index

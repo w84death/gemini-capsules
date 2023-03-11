@@ -21,17 +21,38 @@
 ╰────────────▲────────────────╯ ╰───────────╯
 ```
 
+``` Flash News
+  ___   _               _        _  _
+ | __| | |  __ _   ___ | |_     | \| |  ___  __ __ __  ___
+ | _|  | | / _` | (_-< | ' \    | .` | / -_) \ V  V / (_-<
+ |_|   |_| \__,_| /__/ |_||_|   |_|\_| \___|  \_/\_/  /__/
+```
 ## Flash News
 > Added ChatGPT generated text adventure and my pico-8 carts
 
 ## Table of Content
 Dive into dedicated capsules for respective topics.
 
+
+``` Hot Stuff
+  _  _         _       ___   _             __    __
+ | || |  ___  | |_    / __| | |_   _  _   / _|  / _|
+ | __ | / _ \ |  _|   \__ \ |  _| | || | |  _| |  _|
+ |_||_| \___/  \__|   |___/  \__|  \_,_| |_|   |_|
+```
 ### Hot stuff you should read first
 => micro/article/esp8266-gemini-server.gmi Put gemini server on a ESP8266 microcontroller
 => floppinux/article/floppinux-on-a-floppy.gmi Create your own 1.44MB Linux distribution
 => /cooking/recipe/rice-bread.gmi Rice pancakes 🍚🥞 as bread replacement 🍞
 
+
+``` Computers
+   ___                               _
+  / __|  ___   _ __    _ __   _  _  | |_   ___   _ _   ___
+ | (__  / _ \ | '  \  | '_ \ | || | |  _| / -_) | '_| (_-<
+  \___| \___/ |_|_|_| | .__/  \_,_|  \__| \___| |_|   /__/
+                      |_|
+```
 ### All Forms of Computers
 => floppinux/ 🐧 FLOPPINUX Operating System
 => dos/ My Love for MS-DOS
@@ -39,12 +60,27 @@ Dive into dedicated capsules for respective topics.
 => selfhost/ Living with IBM ServerX
 => pico8/ Pico-8 Fantasy Console
 
+
+``` Misc
+  __  __   _
+ |  \/  | (_)  ___  __
+ | |\/| | | | (_-< / _|
+ |_|  |_| |_| /__/ \__|
+```
 ### Not Computers
 => text-adventure/ Text adventure written by ChatGPT
 => fpv/ 🚁 FPV racing drones
 => cooking/ 🍳 Plant-based cooking corner
+=> fiction/ Fiction written by AI
 => misc/ ✨ Miscellaneous content
 
+
+``` Hello
+  _  _         _   _         _
+ | || |  ___  | | | |  ___  | |
+ | __ | / -_) | | | | / _ \ |_|
+ |_||_| \___| |_| |_| \___/ (_)
+```
 ## Hello, Gemini World!
 My name is __Krzysztof Krystian Jankowski__ also known as __w84death__.
 An old hacker you may say. Indie game developer. Now a producer in realtime graphics.

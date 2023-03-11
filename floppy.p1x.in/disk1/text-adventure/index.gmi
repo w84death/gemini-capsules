@@ -1,6 +1,27 @@
+``` The Doorway: A Text Adventure
+ ___
+-   ---___- ,,                -_____
+   (' ||    ||                  ' | -,                    ;        _
+  ((  ||    ||/\\  _-_         /| |  |`  /'\\  /'\\ ,._-_ \\/\/\  < \, '\\/\\ <>
+ ((   ||    || || || \\        || |==|| || || || ||  ||   || | |  /-||  || ;'
+  (( //     || || ||/         ~|| |  |, || || || ||  ||   || | | (( ||  ||/
+    -____-  \\ |/ \\,/         ~-____,  \\,/  \\,/   \\,  \\/\\/  \/\\  |/    <>
+              _/              (                                        (
+                                                                        -_-
+  ___           ___                                 ___
+ -   -_,       -   ---___-               ,         -   -_,  |\                      ,
+(  ~/||           (' ||          ,      ||        (  ~/||    \\  ;                 ||
+(  / ||          ((  ||     _-_  \\ /` =||=       (  / ||   / \\ \\/\  _-_  \\/\\ =||= \\ \\ ,._-_  _-_
+ \/==||         ((   ||    || \\  \\    ||         \/==||  || || || | || \\ || ||  ||  || ||  ||   || \\
+ /_ _||          (( //     ||/    /\\   ||         /_ _||  || || || | ||/   || ||  ||  || ||  ||   ||/
+(  - \\,           -____-  \\,/  /  \;  \\,       (  - \\,  \\/  \\/  \\,/  \\ \\  \\, \\/\\  \\,  \\,/
+```
+
 # The Doorway: A Text Adventure
 
 Welcome to "The Doorway," a thrilling text adventure that will test your wits and bravery. You will navigate through a non-linear adventure filled with danger, excitement, and mystery. The choices you make will determine your fate and the outcome of the story.
+
+Includes 14 pages, 1 ending, 2 languages.
 
 Select your language:
 => adventure_en/ English version

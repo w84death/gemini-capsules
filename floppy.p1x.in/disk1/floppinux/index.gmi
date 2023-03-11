@@ -1,3 +1,14 @@
+``` FLOPPINUX
+
+88888888888  88             ,ad8888ba,    88888888ba   88888888ba   88  888b      88  88        88  8b        d8
+88           88            d8"'    `"8b   88      "8b  88      "8b  88  8888b     88  88        88   Y8,    ,8P
+88           88           d8'        `8b  88      ,8P  88      ,8P  88  88 `8b    88  88        88    `8b  d8'
+88aaaaa      88           88          88  88aaaaaa8P'  88aaaaaa8P'  88  88  `8b   88  88        88      Y88P
+88"""""      88           88          88  88""""""'    88""""""'    88  88   `8b  88  88        88      d88b
+88           88           Y8,        ,8P  88           88           88  88    `8b 88  88        88    ,8P  Y8,
+88           88            Y8a.    .a8P   88           88           88  88     `8888  Y8a.    .a8P   d8'    `8b
+88           88888888888    `"Y8888Y"'    88           88           88  88      `888   `"Y8888Y"'   8P        Y8
+```
 # FLOPPINUX - An Embedded 🐧Linux on a Single 💾Floppy
 > Project goal is simple: create latest Linux OS that fits on one floppy and boots right into the embedded application.
 

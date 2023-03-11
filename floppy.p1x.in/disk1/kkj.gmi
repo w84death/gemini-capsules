@@ -1,3 +1,20 @@
+``` Krzysztof Krystian Jankowski
+
+|   /                         |         ,---.
+|__/ ,---.,---,,   .,---.,---,|--- ,---.|__.
+|  \ |     .-' |   |`---. .-' |    |   ||
+`   ``    '---'`---|`---''---'`---'`---'`
+               `---'
+|   /               |    o
+|__/ ,---.,   .,---.|--- .,---.,---.
+|  \ |    |   |`---.|    |,---||   |
+`   ``    `---|`---'`---'``---^`   '
+          `---'
+    |          |                   |    o
+    |,---.,---.|__/ ,---.. . .,---.|__/ .
+    |,---||   ||  \ |   || | |`---.|  \ |
+`---'`---^`   '`   ``---'`-'-'`---'`   ``
+```
 # Krzysztof Krystian Jankowski
 ## Cyfrowy Nomada CEO, P1X Founder
 > Any team with good leadership can accomplish impossible tasks.
@@ -96,7 +113,14 @@ Created arcade game Vostok with P1X Team. Shown on trade shows.
 => https://github.com/w84death/lovedos/blob/main/CESSNA/
 => https://github.com/rxi/lovedos
 => https://beffio.com
+=> gemmini://floppy.p1x.in/ gemmini floppy.p1x.in
 => https://floppy.p1x.in/ HTTP proxy floppy.p1x.in
+
+### 2023
+* Incorporated ChatGPT to cowrite with me demoscene effects (LUA)
+* Started using Stable Diffusion and ControlNet AI image generation
+=> https://chat.openai.com
+=> https://stability.ai/
 
 => floppy.gmi Back to homepage
 
