@@ -1,0 +1,16 @@
+# The Doorway: A Text Adventure
+
+## The Adventure Begins
+
+Welcome to my text-adventure capsule! Prepare to embark on a thrilling journey filled with danger, excitement, and mystery. As you navigate through this non-linear adventure, you'll encounter a variety of challenges and obstacles, each of which will test your skills and knowledge.
+
+## The Story So Far
+
+You find yourself standing in front of a mysterious door, unsure of how you got here. The door is made of ancient stone and adorned with intricate symbols that you can't decipher. You hear a faint whisper in the wind, beckoning you to open the door and explore what lies beyond.
+
+Do you:
+
+=> page2.gmi Open the door and step inside
+=> page3.gmi Turn and walk away
+
+=> /floppy.gmi Back to index

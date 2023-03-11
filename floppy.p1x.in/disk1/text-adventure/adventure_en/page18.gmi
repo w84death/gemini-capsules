@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## The Spell of Thunder
+
+You focus your energy and cast a spell of thunder at the creature. Lightning strikes the creature, but it seems to have no effect. The creature charges at you, and you try to dodge its attacks. But it's too fast, and it strikes you with its claws, knocking you to the ground.
+
+You try to get up and defend yourself, but the creature is too powerful. It overpowers you and claims the treasure for itself.
+
+You have failed to complete The Doorway: A Text Adventure.
+
+Do you:
+
+=> index.gmi Start the adventure again
+=> /floppy.gmi Back to index

@@ -1,0 +1,15 @@
+# The Doorway: A Text Adventure
+
+## Congratulations!
+
+Congratulations, hacker! You've found the secret page that's hidden deep within The Doorway: A Text Adventure.
+
+As a reward for your curiosity and persistence, we'd like to offer you a special prize: our eternal gratitude and respect for your skills. You've proven that you have what it takes to go above and beyond, to explore the unknown, and to never give up.
+
+We hope that you've enjoyed playing The Doorway: A Text Adventure, and that you'll continue to explore the many mysteries and secrets of the digital world.
+
+Thank you for being a part of our adventure, and happy hacking!
+
+Do you:
+
+=> index.gmi Return to the game and continue your adventure

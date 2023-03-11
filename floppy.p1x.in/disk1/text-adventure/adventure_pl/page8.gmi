@@ -1,0 +1,12 @@
+# The Doorway: A Text Adventure
+
+## Ukryty Skarb
+
+Podążasz za mapą i znajdujesz się w ukrytej komnacie głęboko w świątyni. Pokój jest wypełniony skarbami przekraczającymi Twoje najśmielsze marzenia: stosami złota i klejnotów, starożytnymi artefaktami i potężnymi relikwiami.
+
+Ale kiedy sięgasz po skarby, słyszysz niskie warczenie dochodzące z cienia. Z mroku wyłania się potężne stworzenie, którego oczy skupiają się na Tobie.
+
+Czy:
+
+=> Walczyć ze stworzeniem i zdobyć skarb dla siebie (/page13.gmi)
+=> Spróbować przemknąć obok stworzenia i uciec z tym, co możesz unieść (/page14.gmi)

@@ -1,0 +1,11 @@
+# The Doorway: A Text Adventure
+
+## Starożytne artefakty
+
+Przyglądasz się starożytnym artefaktom w pokoju, badając każdy z nich uważnie. Kiedy studiujesz posągi, gobeliny i zwoje, zauważasz, że wszystkie wydają się być związane z wspólnym tematem: mitycznym stworzeniem znanym jako Chimera.
+
+Czy:
+
+=> Kontynuować badanie artefaktów, aby dowiedzieć się więcej o Chimera (/page12.gmi)
+=> Wróć do mapy i podążaj za nią, aby znaleźć skarb (/page8.gmi)
+=> Wróć do centrum pokoju (/page4.gmi)

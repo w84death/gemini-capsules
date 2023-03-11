@@ -1,0 +1,10 @@
+# The Doorway: A Text Adventure
+
+## Explore in the darkness
+
+You use your senses to explore the room in the darkness. As you feel your way around the room, you stumble upon a hidden door. You hear a faint humming sound coming from behind the door.
+
+Do you:
+
+=> page10.gmi Open the door and investigate the source of the sound
+=> page11.gmi Continue exploring the room with your senses

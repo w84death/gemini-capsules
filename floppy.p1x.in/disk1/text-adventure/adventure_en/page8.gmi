@@ -1,0 +1,12 @@
+# The Doorway: A Text Adventure
+
+## The Hidden Treasure
+
+You follow the map and find yourself in a hidden chamber deep within the temple. The room is filled with treasure beyond your wildest dreams: piles of gold and jewels, ancient artifacts, and powerful relics.
+
+But as you reach for the treasure, you hear a low growl coming from the shadows. A massive creature steps out of the darkness, its eyes fixed on you.
+
+Do you:
+
+=> page13.gmi Fight the creature and claim the treasure as your own
+=> page14.gmi Try to sneak past the creature and escape with what you can carry

@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## Ucieczka z Wąską Przesmyku
+
+Próbujesz podkradać się obok stworzenia, ale jest zbyt czujne i łapie Cię na gorącym uczynku. Wchodzisz w zaciętą walkę ze stworzeniem, ale jest zbyt potężne, aby je pokonać. W momencie, gdy wszystko wydaje się stracone, udaje Ci się zadać decydujący cios i uciec z tym, co możesz znieść.
+
+Wychodzisz z świątyni i wracasz na dzikie tereny, wdzięczny za to, że żyjesz, ale rozczarowany, że nie udało Ci się zdobyć skarbu. Wędrując przez dziką naturę, zaczynasz odczuwać dziwną nutę déjà vu, jakbyś już kiedyś był tutaj.
+
+Nagle znajdujesz się ponownie przed tajemniczą drzwiami, niepewny, jak się tu znalazłeś. Szept wiatru powraca, wzywając Cię do otwarcia drzwi i odkrycia tego, co leży po drugiej stronie.
+
+Czy:
+
+=> Otwórz drzwi i rozpocznij przygodę ponownie (/index.gmi)
+=> /floppy.gmi Wroc do indeksu

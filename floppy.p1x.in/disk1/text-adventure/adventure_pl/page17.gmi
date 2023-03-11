@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## The Spell of Thunder
+
+You focus your energy and cast a spell of thunder at the creature. A bolt of lightning strikes the creature, electrocuting it and causing it to convulse uncontrollably. The creature falls to the ground, defeated.
+
+As the smoke clears, you see the treasure gleaming in the corner of the room. You approach it cautiously, unsure if there are any more dangers lurking in the shadows. But the room is silent, and you claim the treasure as your own.
+
+Congratulations! You have successfully completed The Doorway: A Text Adventure.
+
+Do you:
+
+=> Start the adventure again (/index.gmi)
+=> /floppy.gmi Wroc do indeksu

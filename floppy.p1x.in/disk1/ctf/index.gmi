@@ -1,0 +1,15 @@
+# Capture The Flag
+
+## Recommended CTFs
+
+- tryHackMe
+- hackTheBox
+- OverTheWire
+- picoCTF
+
+
+## Tools
+
+nmap -sV -A -T4 _SC 192.168.1.XX
+
+drib http://ip/

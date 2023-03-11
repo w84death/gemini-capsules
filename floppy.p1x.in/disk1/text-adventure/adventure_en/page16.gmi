@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## The Spell of Fire
+
+You focus your energy and cast a spell of fire at the creature. Flames engulf the creature's body, burning it to a crisp. The creature howls in pain and falls to the ground, defeated.
+
+As the smoke clears, you see the treasure gleaming in the corner of the room. You approach it cautiously, unsure if there are any more dangers lurking in the shadows. But the room is silent, and you claim the treasure as your own.
+
+Congratulations! You have successfully completed The Doorway: A Text Adventure.
+
+Do you:
+
+=> index.gmi Start the adventure again
+=> /floppy.gmi Back to index

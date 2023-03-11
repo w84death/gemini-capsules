@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## The Restless Journey
+
+You find a shady spot under a nearby tree and rest for a while, sipping from your water supply and enjoying the quiet solitude of the wilderness. But as you close your eyes, you hear a whisper in the wind, urging you to continue your journey.
+
+You realize that you can't go back without uncovering the mystery of the doorway. You pack up your things and head back to the doorway. However, after searching for hours, you find yourself back where you started, with no new discoveries or leads.
+
+You have failed to uncover the mystery of The Doorway.
+
+Do you:
+
+=> index.gmi Start the adventure again and try to uncover the mystery
+=> /floppy.gmi Back to index

@@ -1,0 +1,11 @@
+# The Doorway: A Text Adventure
+
+## Ostateczna walka
+
+Wyciągasz swój miecz i przygotowujesz się do walki ze stworzeniem. Potwór rzuca się na Ciebie z niesamowitą szybkością i siłą, jego ostrze pazurów błyszczy w słabym świetle. Unikasz jego ataków i szukasz sposobu, aby zaatakować.
+
+Czy:
+
+=> Rzuć czar ognia, aby spalić stworzenie (/page16.gmi)
+=> Rzuć czar lodu, aby zamrozić stworzenie (/page17.gmi)
+=> Rzuć czar pioruna, aby porazić stworzenie prądem (/page18.gmi)

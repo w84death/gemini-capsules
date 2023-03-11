@@ -1,0 +1,39 @@
+```<3 MS-DOS
+                  ╭────────────────────╮
+                  │░BOOT OK▒▒▒▒▒▒▒▒▒▒▒░│`.
+                  │░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░│`│
+                  │░Starting MS-DOS...░│`│
+   ┌┄┄─────────╮. │░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░│`│
+   │  _  _  _  ││ │░C:\>_▒▒▒▒▒▒▒▒▒▒▒▒▒░│.│
+   │ 'M\/M"(_` ││ │░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░│.│
+   │ ||``||._) ││ │░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░│,'
+   │ mm,-=,==, ││ ╰──────────────────■─╯*)
+   │ M`|\ l=,  ││    ┌───╯┄┄──┄┄╰───┐   `*)
+   │ M |/ | |) ││    │▓▓┣▓▓▓┫▓▓▓▓ ┄ ││ (*'
+───│ mm'=='==' ││┄┄──│▒▒├▒▒▒┤▒▒▒▒ ◇ │├■*)┄──────┄
+   └───────────┘'    └─────────────┘'
+────────────────────────────────────────────┄  .kkj '22
+```
+# MS-DOS Forever
+> Initial release August 12, 1981; 41 years ago. - Wikipedia
+
+## Articles
+I have a lot to say about DOS. Especially the Microsoft version on Intel 486 era of computers.
+
+In no particular order, I'll write those:
+* Why bother about 41 year old OS nowadays?
+* MicroDOS distribution on a single floppy
+* Game development in MS-DOS
+* MS-DOS vs FreeDOS
+
+## Resources (HTTP)
+=> https://github.com/w84death/lovedos
+=> https://github.com/w84death/interactive-fiction-basic-engine
+=> https://github.com/w84death/qbasic
+
+
+The seed has been planted. This place will grow over time.
+
+Please, come back later :)
+
+=> ../floppy.gmi Back to homepage

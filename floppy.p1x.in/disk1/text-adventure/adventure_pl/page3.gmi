@@ -1,0 +1,10 @@
+# The Doorway: A Text Adventure
+
+## Tajemniczy pokój
+
+Przechodzisz przez drzwi i znajdujesz się w słabo oświetlonym pokoju. Powietrze jest zapachniałe i gęste, ledwo dostrzegasz swoje otoczenie. Kiedy Twoje oczy przyzwyczajają się do ciemności, zaczynasz dostrzegać kształty i cienie w kątach pokoju.
+
+Czy:
+
+=> Zapalić pochodnię, aby oświetlić pokój (/page4.gmi)
+=> Użyć zmysłów, aby badać pokój w ciemności (/page5.gmi)

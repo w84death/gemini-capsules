@@ -1,0 +1,8 @@
+# The Doorway: A Text Adventure
+
+Welcome to "The Doorway," a thrilling text adventure that will test your wits and bravery. You will navigate through a non-linear adventure filled with danger, excitement, and mystery. The choices you make will determine your fate and the outcome of the story.
+
+Select your language:
+=> adventure_pl/ English version
+=> adventure_pl/ Wersja polska
+=> /floppy.gmi Back to index

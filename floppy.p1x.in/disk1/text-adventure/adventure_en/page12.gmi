@@ -1,0 +1,11 @@
+# The Doorway: A Text Adventure
+
+## The Legend of the Chimera
+
+As you study the artifacts more closely, you begin to piece together a legend about a powerful mythical creature known as the Chimera. According to the legend, the Chimera was said to have the power to grant wishes to those who could defeat it in battle.
+
+Do you:
+
+=> page15.gmi Use the knowledge you've gained to search for the Chimera and claim its power
+=> page4.gmi Return to the center of the room and explore other options
+=> page9.gmi Go back to the artifacts and study them more closely

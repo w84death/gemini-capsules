@@ -1,0 +1,13 @@
+# Fictional Fiction made by AI
+
+## The Hacker's Quest
+Written by ChatGPT.
+
+> how would you name this series?
+I would name this series "The Hacker's Quest" or "The Quest for the Truth" to emphasize the main character's journey to uncover the secrets of the floppy disk and bring down the group of hackers.
+
+> write a short summary that could be put one the back of the book
+When skilled hacker Alex Thompson comes across an old and mysterious floppy disk, he is thrown into a dangerous world of secrets and deception. As he delves deeper into the disk's contents, he becomes a target for a powerful organization who will stop at nothing to get the disk back. With the help of fellow hackers, Alex must stay one step ahead and use his skills to bring down the group and protect the sensitive information on the disk. But the danger is far from over, and Alex must be ready for whatever comes next in his quest for the truth.
+
+=> article/hackers-quest.gmi Read The Hacker's Quest
+=> ../floppy.gmi Back to homepage

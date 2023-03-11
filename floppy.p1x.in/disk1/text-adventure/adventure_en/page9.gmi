@@ -1,0 +1,11 @@
+# The Doorway: A Text Adventure
+
+## The Ancient Artifacts
+
+You take a closer look at the ancient artifacts in the room, examining each one carefully. As you study the statues, tapestries, and scrolls, you notice that they all seem to be related to a common theme: a mythical creature known as the Chimera.
+
+Do you:
+
+=> page12.gmi Continue examining the artifacts to learn more about the Chimera
+=> page8.gmi Return to the map and follow it to find the treasure
+=> page4.gmi Go back to the center of the room

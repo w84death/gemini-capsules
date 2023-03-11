@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## Zaklęcie Ognia
+
+Koncentrujesz swoją energię i rzucasz zaklęcie ognia w stronę stworzenia. Płomienie obejmują ciało stworzenia, paląc je do popiołu. Stworzenie wyje z bólu i upada na ziemię, pokonane.
+
+Gdy dym się rozwiewa, dostrzegasz skarb mieniący się w kącie pokoju. Podeszłaś do niego ostrożnie, niepewna, czy nie czyhają tu jakieś inne niebezpieczeństwa w cieniu. Jednak pokój jest cichy, a skarb jest Twój.
+
+Gratulacje! Udało Ci się pomyślnie ukończyć The Doorway: A Text Adventure.
+
+Czy:
+
+=> Rozpocznij przygodę ponownie (/index.gmi)
+=> /floppy.gmi Wroc do indeksu

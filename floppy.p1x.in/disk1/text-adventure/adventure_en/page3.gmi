@@ -1,0 +1,10 @@
+# The Doorway: A Text Adventure
+
+## The Mysterious Room
+
+You step through the doorway and find yourself in a dimly-lit room. The air is musty and thick, and you can barely make out your surroundings. As your eyes adjust to the darkness, you begin to see shapes and shadows in the corners of the room.
+
+Do you:
+
+=> page4.gmi Light a torch to illuminate the room
+=> page5.gmi Use your senses to explore the room in the darkness

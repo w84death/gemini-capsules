@@ -1,0 +1,11 @@
+# The Doorway: A Text Adventure
+
+## The Final Battle
+
+You draw your weapon and prepare to engage the creature in battle. The creature lunges at you with incredible speed and strength, its razor-sharp claws gleaming in the dim light. You dodge its attacks and search for an opening to strike.
+
+Do you:
+
+=> page16.gmi Cast a spell of fire to burn the creature
+=> page17.gmi Cast a spell of ice to freeze the creature
+=> page18.gmi Cast a spell of thunder to electrocute the creature

@@ -1,0 +1,11 @@
+# The Doorway: A Text Adventure
+
+## Legenda o Chimera
+
+Kiedy badasz artefakty bliżej, zaczynasz składać w całość legendę o potężnym mitycznym stworzeniu znanym jako Chimera. Według legendy, Chimera miał moc spełniać życzenia tym, którzy byli w stanie pokonać ją w walce.
+
+Czy:
+
+=> Wykorzystaj zdobytą wiedzę, aby poszukać Chimery i zdobyć jej moc (/page15.gmi)
+=> Wróć do centrum pokoju i poszukaj innych opcji (/page4.gmi)
+=> Wróć do artefaktów i badaj je bliżej (/page9.gmi)

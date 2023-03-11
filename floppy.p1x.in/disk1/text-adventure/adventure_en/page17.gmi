@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## The Spell of Ice
+
+You focus your energy and cast a spell of ice at the creature. The creature freezes for a moment, but then breaks free and lunges at you with renewed vigor. It strikes you with its claws, knocking you to the ground.
+
+You try to get up and defend yourself, but the creature is too powerful. It overpowers you and claims the treasure for itself.
+
+You have failed to complete The Doorway: A Text Adventure.
+
+Do you:
+
+=> index.gmi Start the adventure again
+=> /floppy.gmi Back to index

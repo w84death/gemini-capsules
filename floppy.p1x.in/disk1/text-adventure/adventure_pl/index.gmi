@@ -1,0 +1,16 @@
+# The Doorway: A Text Adventure
+
+## Przygoda rozpoczyna się
+
+Witaj w mojej kapsule z grą tekstową! Przygotuj się na fascynującą podróż pełną niebezpieczeństw, ekscytacji i tajemnic. W trakcie tej nieliniowej przygody spotkasz wiele wyzwań i przeszkód, każde z których sprawdzi Twoje umiejętności i wiedzę.
+
+## Jak dotąd
+
+Znajdujesz się przed tajemniczą drzwiami, niepewny, jak się tu znalazłeś. Drzwi są wykonane z kamienia i zdobione mistycznymi symbolami, których nie potrafisz odczytać. Słyszysz ciche szepty wiatru, które wołają Cię, aby otworzyć drzwi i odkryć, co kryje się za nimi.
+
+Czy:
+
+=> Otworzyć drzwi i wejść do środka (/page2.gmi)
+=> Odwrócić się i odejść (/page3.gmi)
+
+=> /floppy.gmi Wroc do indeksu

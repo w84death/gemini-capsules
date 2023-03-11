@@ -1,0 +1,12 @@
+# The Doorway: A Text Adventure
+
+## The Mysterious Room
+
+### Light a torch
+
+You light a torch to illuminate the room and take a closer look at your surroundings. You see that the room is filled with ancient artifacts, including statues, tapestries, and scrolls. You notice a map on the wall that seems to lead to a hidden treasure.
+
+Do you:
+
+=> page8.gmi Follow the map to find the treasure
+=> page9.gmi Examine the artifacts more closely

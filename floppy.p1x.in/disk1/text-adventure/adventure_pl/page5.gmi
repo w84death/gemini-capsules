@@ -1,0 +1,10 @@
+# The Doorway: A Text Adventure
+
+## Badać pokój w ciemności
+
+Używasz swoich zmysłów, aby zbadać pokój w ciemności. Kiedy przeprowadzasz rękoma wzdłuż ścian, natrafiasz na ukryte drzwi. Słyszysz ciche dzwonienie dochodzące zza drzwi.
+
+Czy:
+
+=> Otworzyć drzwi i zbadać źródło dźwięku (/page10.gmi)
+=> Kontynuować badanie pokoju z zastosowaniem zmysłów (/page11.gmi)

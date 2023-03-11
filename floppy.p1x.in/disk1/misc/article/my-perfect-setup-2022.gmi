@@ -1,0 +1,98 @@
+# My Perfect Setup 2022
+Each few years I write a complete list of my current setup. It consist of some hardware and lot of software I use daily. This setup is both for work and play.
+
+## 2022 Variant
+This year I made a big change. Back to the root in some way. I'm using relatevely slow but small PC as a terminal that connects to a two remote powerfull PCs.
+Thanks to this I'm back to 100% Linux with Windows only on the remote machines.
+
+BTW: I'm using Arch! (thanks to Steam Deck.)
+
+## Hardware
+
+### Main PC
+- SteamDeck 256GB + 256GB microSD
+
+I will write a seperate article describing all the pros and cons of this magnificent device. But the bottom line is that it's the smallest and most confortable PC that can run Blender and all the games up to PS4 era. As a bonus it runs on Linux - SteamOS that is constantly refinded by Valve. It's one of the best distributions I know.
+
+Steam Deck is very powerfull and thanks to the fact that there is only one, reference hardware design it's OS is optimized to the last bit. It's the smoothers desktop experience I got from all my computers.
+
+### Remote PCs
+These are headless PCs connected to the internet without any other IO (keyboard or monitor.0
+- [at home] i3 7-th gen, 16GB RAM, RTX 2060 6VRAM
+- [at work] i7 4-th gen, 16GB RAM, RTX 2080TVRAM
+
+This part is crusial to my new setup. I always wanted to have the fastest and most capable computer as my main driver. Once I decided to be more mobile I got a RTX capable laptop. Those devices are not quite mobile and the battery life is terrible. They big, heavy and very loud. All the oposites of a Steam Deck. And then I tried to use remote PCs at work. It turns out that this is the future - computers in the cloud.
+
+Now I can use slimmer device (aka terminal) for 80% of work I do. Then for Unreal Engine, Unity or rendering final images from Blender I'm using remote hardware. When in full screen mode it's hard to recognize it's not native. At last on my good internet connection (or at home over the wire.)
+
+Additional benefit is that after running a process that I know will take few hours (e.g. first shader compilation in UE) I close the remote window and get rid of the boring distraction. After a while I can connect and check the status if needed while the host PC is not affected at all running smoothly.
+
+
+### Servers
+
+
+Main server with all the services I host for myself.
+- IBM SystemX x3570 M3 with Dual Intel Xeon E5645 (12) @ 1.600GHz, 32GB memory and NVIDIA Quadro K620
+
+Additional servers.
+- IBM SystemX x3250 with Intel Xeon 3040 (2) @1.86Ghz,4GB memory and 2TB disk (NAS)
+- 2x ESP8266 (http+gemini servers)
+- Raspberry Pi 3 + FDD (gemini server)
+
+=> /selfhost/article/tech.gmi More about the servers
+
+### Selfhosted Services
+All those servers have a purpose. The main one have the most important job - it runs a ton of Docker containers. I slowly moving all of the online services to open-source alternatives hosted on my own hardware.
+
+- Nextcloud
+- WireGuard
+- Jellyfin
+- Talk (video calls)
+
+
+## Software Stack
+This software is 100% free and available on SteamDeck (flatpak and Appimage).
+
+### Essentials
+- Firefox
+- Remmina (remote connection)
+- Kate
+- Thunderbird
+- Steam (lot of games)
+- LibreOffice
+- GIMP
+- Inkscape
+- Blender
+- Calibre
+- Kasts
+
+### Communication
+- Signal
+- Caprine
+- Slack
+
+### Multimedia
+- Audacity
+- Kdenlive
+- OBS
+- VLC
+
+### Good tools
+- Okular
+- VideoTrimmer
+- Lagrange
+- FreeTube
+- Peek
+- Curtail
+- Frog
+- Flatseal
+- Raspberry Pi Imager
+- Publii
+- FileZilla
+
+### Game development
+- Pico8
+- Godot
+- 86Box (LoveDOS/QuickBASIC)
+- Love2d
+- Unreal engine 5

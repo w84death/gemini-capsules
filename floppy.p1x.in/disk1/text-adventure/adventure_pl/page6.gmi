@@ -1,0 +1,15 @@
+# The Doorway: A Text Adventure
+
+## Gratulacje!
+
+Gratulacje, hakerze! Znalazłeś tajną stronę ukrytą głęboko w The Doorway: A Text Adventure.
+
+Jako nagrodę za Twoją ciekawość i wytrwałość, chcielibyśmy zaoferować Ci specjalny upominek: naszą wieczną wdzięczność i szacunek dla Twoich umiejętności. Udowodniłeś, że masz to, co potrzebne, aby przekraczać granice, odkrywać nieznane i nigdy się nie poddawać.
+
+Mamy nadzieję, że podobała Ci się gra The Doorway: A Text Adventure i że będziesz kontynuował odkrywanie wielu tajemnic i sekretów świata cyfrowego.
+
+Dziękujemy za udział w naszej przygodzie i happy hacking!
+
+Czy:
+
+=> Wróć do gry i kontynuuj swoją przygodę (/index.gmi)

@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## The Narrow Escape
+
+You try to sneak past the creature, but it's too alert and catches you in the act. You engage in a fierce battle with the creature, but it's too powerful for you to defeat. Just as all seems lost, you manage to land a decisive blow and escape with what you can carry.
+
+You make your way out of the temple and back into the wilderness, grateful to be alive but disappointed that you couldn't claim the treasure. As you wander through the wilderness, you begin to feel a sense of deja vu, as though you've been here before.
+
+Suddenly, you find yourself standing in front of the mysterious door once again, unsure of how you got here. The whisper in the wind returns, beckoning you to open the door and explore what lies beyond.
+
+Do you:
+
+=> index.gmi Open the door and start the adventure again
+=> /floppy.gmi Back to index

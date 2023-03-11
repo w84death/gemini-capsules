@@ -1,0 +1,12 @@
+# The Doorway: A Text Adventure
+
+## Tajemniczy pokój
+
+### Zapalić pochodnię
+
+Zapalasz pochodnię, aby oświetlić pokój i przyjrzeć się swojemu otoczeniu z bliska. Widzisz, że pokój jest wypełniony starożytnymi artefaktami, w tym posągami, gobelinami i zwojami. Zauważasz na ścianie mapę, która wydaje się prowadzić do ukrytego skarbu.
+
+Czy:
+
+=> Podążać za mapą, aby odnaleźć skarb (/page8.gmi)
+=> Badać artefakty bliżej (/page9.gmi)

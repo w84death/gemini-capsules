@@ -1,0 +1,14 @@
+# The Doorway: A Text Adventure
+
+## Niespokojna podróż
+
+Znajdujesz zacienione miejsce pod pobliskim drzewem i odpoczywasz przez chwilę, popijając wodę i ciesząc się spokojem dzikiej natury. Ale gdy zamykasz oczy, słyszysz szept wiatru, który namawia Cię do kontynuowania podróży.
+
+Uświadamiasz sobie, że nie możesz wrócić bez odkrycia tajemnicy bramy. Pakujesz swoje rzeczy i wracasz do bramy. Jednak po kilku godzinach poszukiwań, znajdujesz się z powrotem tam, gdzie zacząłeś, bez nowych odkryć ani wskazówek.
+
+Nie udało Ci się odkryć tajemnicy The Doorway.
+
+Czy:
+
+=> Rozpocząć przygodę od nowa i spróbować odkryć tajemnicę (/index.gmi)
+=> /floppy.gmi Wroc do indeksu
